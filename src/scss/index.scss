@@ -1,0 +1,32 @@
+@import './fonts';
+@import './vars';
+@import './media';
+
+// Тут описываем основные стили проекта, разделяя основные блоки комментариями и переносом строк
+// Пример:
+
+// Common style
+body {
+  background-color: $black;
+  color: $white;
+}
+
+// Header
+.header {
+  background-color; $white;
+  color: $black
+}
+
+// Button
+.btn {
+  border: 0;
+
+  &-login {
+    ...
+  }
+  &-signup {
+    ...
+  }
+}
+
+// Удаляем пример выше и пишем свой код соблюдая вышеперечисленные советы. 
