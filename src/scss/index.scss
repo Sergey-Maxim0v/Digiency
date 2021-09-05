@@ -94,10 +94,15 @@ body {
   background-size: 100% 100%;
   background-position: center;
 }
+.headerBurger{
+  display: none;
+}
 
 //footer
 .footer{
-
+  position: relative;
+  width: 100%;
+  height: auto;
 }
 
 /*
