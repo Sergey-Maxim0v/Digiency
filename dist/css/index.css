@@ -26,7 +26,7 @@
 @media (max-width: 1024px) {
   .header {
     width: 100%;
-    height: 100px;
+    height: 80px;
     background: #FFFFFF;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
@@ -83,10 +83,10 @@
 @media (max-width: 600px) {
   .header {
     width: 100%;
-    height: 100px;
+    height: 50px;
     background: #FFFFFF;
-    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0;
+            box-shadow: 0;
     padding: 0 14px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -104,8 +104,8 @@
     margin: 0 0 0 0;
     font-family: "Work Sans";
     font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 25px;
     line-height: 123.6%;
     text-align: center;
     display: -webkit-box;
@@ -212,9 +212,10 @@ body {
   background-color: white;
   color: #373737;
   position: relative;
-  overflow: hidden;
   width: 100%;
   height: auto;
+  font-family: "Work Sans";
+  font-style: normal;
 }
 
 .header {
@@ -289,16 +290,218 @@ body {
   display: none;
 }
 
-/*
-// Button
-.btn {
-  border: 0;
-
-  &-login {
-
-  }
-  &-signup {
-
-  }
+.footer {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
-*/
+
+.footerTop {
+  position: relative;
+  width: 100%;
+  height: 360px;
+  padding: 66px 9.38vw 60px 9.38vw;
+  background: #373737;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.footerBlocks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 235px;
+  width: 18.4vw;
+}
+.footerBlocks-Title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39.06px;
+  line-height: 123.6%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.footerBlocks-Title-Orange {
+  color: #FF5300;
+}
+.footerBlocks-Title-White {
+  color: #FFFFFF;
+}
+.footerBlocks-filling {
+  display: block;
+  width: 100%;
+  height: auto;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #FFFFFF;
+}
+.footerBlocks-filling-link {
+  color: #FFFFFF;
+}
+
+.footerLinks {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footerLinks-footerLink {
+  width: 40px;
+  height: 40px;
+}
+.footerLinks-footerLink-Fb {
+  background: #FF5300;
+  background-image: url(../../assets/images/m-icon-white-fb.svg);
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: center;
+}
+.footerLinks-footerLink-Inst {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  background-image: url(../../assets/images/m-icon-orange-instagram.svg);
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: center;
+}
+.footerLinks-footerLink-Twit {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  background-image: url(../../assets/images/m-icon-orange-twitter.svg);
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: center;
+}
+.footerLinks-footerLink-Skype {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  background-image: url(../../assets/images/m-icon-orange-skype.svg);
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: center;
+}
+
+.footerForm {
+  width: 100%;
+  height: 60px;
+  border: 1px solid #FF5300;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footerForm-Input {
+  width: 100%;
+  height: 100%;
+  background: #373737;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  text-align: center;
+  color: #7B7B7B;
+}
+.footerForm-Button {
+  width: 81px;
+  height: 100%;
+  background: #FF5300;
+  background-image: url(../../assets/images/m-icon-white-send.svg);
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: center;
+}
+
+.footerBot {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  padding: 0 9.38vw;
+  background: #FF5300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footerCopyright {
+  position: relative;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #FFFFFF;
+  margin: 0 0 0 40px;
+}
+.footerCopyright::before {
+  content: "";
+  position: absolute;
+  margin: 0 0px 0 -40px;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../assets/images/m-icon-dark-sun.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.FooterArrow {
+  width: 50px;
+  height: 50px;
+  background: #FF5300;
+  background-image: url(../../assets/images/m-arrow-up-white.svg);
+  background-repeat: no-repeat;
+  background-size: 70% 70%;
+  background-position: center;
+}
