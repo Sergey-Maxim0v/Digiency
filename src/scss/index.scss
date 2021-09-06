@@ -180,37 +180,38 @@ body {
     display: block;
     width: 40px;
     height: 40px;
-    & .Fb {
-      background: #FF5300;
-      background-image: url(../../assets/images/m-icon-white-fb.svg);
-      background-repeat: no-repeat;
-      background-size: 24px 24px;
-      background-position: center;
-    }
-    & .Inst {
-      background: #FFFFFF;
-      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-      background-image: url(../../assets/images/m-icon-orange-instagram.svg);
-      background-repeat: no-repeat;
-      background-size: 24px 24px;
-      background-position: center;
-    }
-    & .Twit {
-      background: #FFFFFF;
-      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-      background-image: url(../../assets/images/m-icon-orange-twitter.svg);
-      background-repeat: no-repeat;
-      background-size: 24px 24px;
-      background-position: center;
-    }
-    & .Skype {
-      background: #FFFFFF;
-      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-      background-image: url(../../assets/images/m-icon-orange-skype.svg);
-      background-repeat: no-repeat;
-      background-size: 24px 24px;
-      background-position: center;
-    }
+    z-index: 5;
+  }
+  &-Fb {
+    background: #FF5300;
+    background-image: url(../../assets/images/m-icon-white-fb.svg);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+  }
+  &-Inst {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-instagram.svg);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+  }
+  &-Twit {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-twitter.svg);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+  }
+  &-Skype {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-skype.svg);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
   }
 }
 .footerForm{
@@ -264,15 +265,15 @@ body {
   color: #FFFFFF;
   margin: 0 0 0 40px;
   &::before{
-    content: "";
+    content: "©";
     position: absolute;
     margin: 0 0px 0 -40px;
     width: 20px;
     height: 20px;
-    background-image: url(../../assets/images/m-icon-dark-sun.svg);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
   }
 }
 

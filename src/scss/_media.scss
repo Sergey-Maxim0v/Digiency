@@ -85,13 +85,17 @@
         display: none;
     }
     .headerBurger{
-        display: block;
-        width: 24px;
-        height: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 18px;
+        height: 16px;
         background: rgba(255, 255, 255, 1);
-        background-image: url(../../assets/images/m-arrow-down-dark.svg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        background-position: center;
+        & div{
+            width: 100%;
+            height: 3px;
+            background-color: rgba(55, 55, 55, 1);
+            border-radius: 2px;
+        }
     }
 }
