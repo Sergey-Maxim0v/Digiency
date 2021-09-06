@@ -39,6 +39,17 @@
         text-align: center;
         color: #373737;
     }
+    .headerLinkStyle{
+        margin: 0 0 0 0;
+        display: block;
+        width: 24px;
+        height: 24px;
+        background: rgba(255, 255, 255, 1);
+        background-image: url(../../assets/images/m-icon-dark-sun.svg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+    }
 }
 @media (max-width: 600px) {
     .header {

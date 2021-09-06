@@ -1,6 +1,5 @@
 @import './fonts';
 @import './vars';
-@import './media';
 
 //cleansing
 *{ padding: 0; margin: 0; border: 0; }
@@ -158,28 +157,37 @@ body {
     font-size: 16px;
     line-height: 150.6%;
     color: #FFFFFF;
-    &-link{
-      color: #FFFFFF;
-    }
+  }
+  &-Link {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: #FFFFFF;
   }
 }
 
-.footerLinks{
+.footerSoc{
   width: 100%;
   height: auto;
   display: flex;
   justify-content: space-between;
-  &-footerLink {
+  &-Link {
+    display: block;
     width: 40px;
     height: 40px;
-    &-Fb {
+    & .Fb {
       background: #FF5300;
       background-image: url(../../assets/images/m-icon-white-fb.svg);
       background-repeat: no-repeat;
       background-size: 24px 24px;
       background-position: center;
     }
-    &-Inst {
+    & .Inst {
       background: #FFFFFF;
       box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
       background-image: url(../../assets/images/m-icon-orange-instagram.svg);
@@ -187,7 +195,7 @@ body {
       background-size: 24px 24px;
       background-position: center;
     }
-    &-Twit {
+    & .Twit {
       background: #FFFFFF;
       box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
       background-image: url(../../assets/images/m-icon-orange-twitter.svg);
@@ -195,7 +203,7 @@ body {
       background-size: 24px 24px;
       background-position: center;
     }
-    &-Skype {
+    & .Skype {
       background: #FFFFFF;
       box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
       background-image: url(../../assets/images/m-icon-orange-skype.svg);
@@ -278,3 +286,4 @@ body {
   background-position: center;
 }
 
+@import './media';
