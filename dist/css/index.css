@@ -468,6 +468,209 @@ body {
     background-size: 100% 100%;
     background-position: center;
   }
+
+  .footerTop {
+    position: relative;
+    width: 100%;
+    height: 291px;
+    padding: 60px 5.2vw;
+    background: #373737;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+
+  .footerBlocks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: 180px;
+    width: 20.18vw;
+  }
+  .footerBlocks-Title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    color: #FFFFFF;
+  }
+  .footerBlocks-Title-Orange {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 123.6%;
+    text-align: center;
+    color: #FF5300;
+  }
+  .footerBlocks-Title-White {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 123.6%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .footerBlocks-filling {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: #FFFFFF;
+  }
+  .footerBlocks-Link {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: #FFFFFF;
+  }
+
+  .footer-Text {
+    width: 100%;
+    height: 75px;
+    overflow: hidden;
+  }
+
+  .footerSoc {
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footerSoc-Link {
+    display: block;
+    width: 30px;
+    height: 30px;
+    z-index: 5;
+  }
+  .footerSoc-Fb {
+    background: #FFFFFF;
+    background-image: url(../../assets/images/m-icon-orange-fb.svg);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: center;
+  }
+  .footerSoc-Inst {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-instagram.svg);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: center;
+  }
+  .footerSoc-Twit {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-twitter.svg);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: center;
+  }
+  .footerSoc-Skype {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-skype.svg);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: center;
+  }
+
+  .footerForm {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #FF5300;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footerForm-Input {
+    width: 100%;
+    height: 100%;
+    background: #373737;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.8px;
+    line-height: 123.6%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #7B7B7B;
+  }
+  .footerForm-Button {
+    width: 35px;
+    height: 100%;
+    background: #FF5300;
+    background-image: url(../../assets/images/m-icon-white-send.svg);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: center;
+  }
+
+  .footerBot {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    padding: 0 9.38vw;
+    background: #FF5300;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .FooterArrow {
+    display: none;
+  }
 }
 @media (max-width: 600px) {
   .header {
