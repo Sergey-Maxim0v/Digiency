@@ -23,10 +23,10 @@
         align-items: center;
         justify-content: center;
         &-Orange {
-          color: #FF5300;
+            color: #FF5300;
         }
         &-Black {
-          color: #373737;
+            color: #373737;
         }
     }
     .headerLink{
@@ -51,6 +51,123 @@
         background-size: 100% 100%;
         background-position: center;
     }
+    // section top
+    .hSectionTop{
+        position: relative;
+        width: 100%;
+        height: 542px;
+        padding: 80px 40px 0px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #FFF7F4;
+        &-content{
+            height: 316px;
+            width: 350px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            &-Tytle{
+                font-family: "Work Sans";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 39.06px;
+                line-height: 123.6%;
+                text-transform: capitalize;
+                &-Black{
+                    color: #373737;
+                }
+                &-Orange{
+                    color: #FF5300;
+                }
+            }
+            &-text{
+                font-family: "Work Sans";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 150.6%;
+                color: #7B7B7B;
+                height: 75px;
+                overflow: hidden;
+            }
+            &-Link{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 150px;
+                height: 50px;
+                background: #FF5300;
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 5px;
+                font-family: "Work Sans";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 123.6%;
+                color: #FFFFFF;
+            }
+        }
+        &-img{
+            position: relative;
+            height: 207px;
+            width: 307px;
+            background-image: url(../../assets/images/m-people-diagrams-2.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: auto auto;
+            margin: 0 0 0 2.43vw;
+        }
+        &-soclinks{
+            position: absolute;
+            right: 0;
+            width: 40px;
+            height: 175px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            & a{
+                display: block;
+                width: 40px;
+                height: 40px;
+            }
+            &-Fb{
+                background: #FF5300;
+                box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+                background-image: url(../../assets/images/m-icon-white-fb.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 24px 24px;
+            }
+            &-Inst{
+                background: #FFFFFF;
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                background-image: url(../../assets/images/m-icon-orange-instagram.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 24px 24px;
+            }
+            &-Twit{
+                background: #FFFFFF;
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                background-image: url(../../assets/images/m-icon-orange-twitter.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 24px 24px;
+            }
+            &-Skype{
+                background: #FFFFFF;
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                background-image: url(../../assets/images/m-icon-orange-skype.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 24px 24px;
+            }
+        }
+    }
+
     // block footer top
     .footerTop{
         position: relative;
@@ -72,31 +189,31 @@
         height: 180px;
         width: 20.18vw;
         &-Title {
-          display: flex;
-          font-family: "Work Sans";
-          font-style: normal;
-          font-weight: 500;
-          font-size: 25px;
-          line-height: 123.6%;
-          color: #FFFFFF;
-          &-Orange {
+            display: flex;
             font-family: "Work Sans";
             font-style: normal;
-            font-weight: bold;
+            font-weight: 500;
             font-size: 25px;
             line-height: 123.6%;
-            text-align: center;
-            color: #FF5300;
-          }
-          &-White {
-            font-family: "Work Sans";
-            font-style: normal;
-            font-weight: bold;
-            font-size: 25px;
-            line-height: 123.6%;
-            text-align: center;
             color: #FFFFFF;
-          }
+            &-Orange {
+                font-family: "Work Sans";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 25px;
+                line-height: 123.6%;
+                text-align: center;
+                color: #FF5300;
+            }
+            &-White {
+                font-family: "Work Sans";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 25px;
+                line-height: 123.6%;
+                text-align: center;
+                color: #FFFFFF;
+            }
         }
         &-filling {
           display: block;
@@ -132,41 +249,41 @@
         display: flex;
         justify-content: space-between;
         &-Link {
-          display: block;
-          width: 30px;
-          height: 30px;
-          z-index: 5;
+            display: block;
+            width: 30px;
+            height: 30px;
+            z-index: 5;
         }
         &-Fb {
             background: #FFFFFF;
-          background-image: url(../../assets/images/m-icon-orange-fb.svg);
-          background-repeat: no-repeat;
-          background-size: 18px 18px;
-          background-position: center;
+            background-image: url(../../assets/images/m-icon-orange-fb.svg);
+            background-repeat: no-repeat;
+            background-size: 18px 18px;
+            background-position: center;
         }
         &-Inst {
-          background: #FFFFFF;
-          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-          background-image: url(../../assets/images/m-icon-orange-instagram.svg);
-          background-repeat: no-repeat;
-          background-size: 18px 18px;
-          background-position: center;
+            background: #FFFFFF;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            background-image: url(../../assets/images/m-icon-orange-instagram.svg);
+            background-repeat: no-repeat;
+            background-size: 18px 18px;
+            background-position: center;
         }
         &-Twit {
-          background: #FFFFFF;
-          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-          background-image: url(../../assets/images/m-icon-orange-twitter.svg);
-          background-repeat: no-repeat;
-          background-size: 18px 18px;
-          background-position: center;
+            background: #FFFFFF;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            background-image: url(../../assets/images/m-icon-orange-twitter.svg);
+            background-repeat: no-repeat;
+            background-size: 18px 18px;
+            background-position: center;
         }
         &-Skype {
-          background: #FFFFFF;
-          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-          background-image: url(../../assets/images/m-icon-orange-skype.svg);
-          background-repeat: no-repeat;
-          background-size: 18px 18px;
-          background-position: center;
+            background: #FFFFFF;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            background-image: url(../../assets/images/m-icon-orange-skype.svg);
+            background-repeat: no-repeat;
+            background-size: 18px 18px;
+            background-position: center;
         }
     }
     .footerForm{
@@ -176,27 +293,27 @@
         box-sizing: border-box;
         display: flex;
         &-Input{
-          width: 100%;
-          height: 100%;
-          background: #373737;
-          font-family: "Work Sans";
-          font-style: normal;
-          font-weight: normal;
-          font-size: 12.8px;
-          line-height: 123.6%;
-          text-align: left;
-          text-transform: capitalize;
-          color: #7B7B7B;
-          padding: 0 5px ;
+            width: 100%;
+            height: 100%;
+            background: #373737;
+            font-family: "Work Sans";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12.8px;
+            line-height: 123.6%;
+            text-align: left;
+            text-transform: capitalize;
+            color: #7B7B7B;
+            padding: 0 5px;
         }
         &-Button{
-          width: 35px;
-          height: 100%;
-          background: #FF5300;
-          background-image: url(../../assets/images/m-icon-white-send.svg);
-          background-repeat: no-repeat;
-          background-size: 18px 18px;
-          background-position: center;
+            width: 35px;
+            height: 100%;
+            background: #FF5300;
+            background-image: url(../../assets/images/m-icon-white-send.svg);
+            background-repeat: no-repeat;
+            background-size: 18px 18px;
+            background-position: center;
         }
     }
     // block footer bot
@@ -263,6 +380,86 @@
             border-radius: 2px;
         }
     }
+    // section top
+    .hSectionTop{
+        position: relative;
+        width: 100%;
+        height: 733px;
+        padding: 100px 20px 50px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #FFF7F4;
+        &-content{
+            order: 2;
+            height: 308px;
+            width: 100%;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            &-Tytle{
+                font-family: "Work Sans";
+                font-style: normal;
+                font-weight: 600;
+                font-size: 31.25px;
+                line-height: 123.6%;
+                text-align: center;
+                text-transform: capitalize;
+                &-Black{
+                    color: #373737;
+                }
+                &-Orange{
+                    color: #FF5300;
+                }
+                margin: 0 0 20px 0;
+            }
+            &-text{
+                font-family: "Work Sans";
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 150.6%;
+                text-align: center;
+                color: #7B7B7B;
+                height: 98px;
+                overflow: hidden;
+            }
+            &-Link{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 150px;
+                height: 50px;
+                background: #FF5300;
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 5px;
+                font-family: "Work Sans";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 123.6%;
+                color: #FFFFFF;
+            }
+        }
+        &-img{
+            order: 1;
+            position: relative;
+            height: 207px;
+            width: 307px;
+            background-image: url(../../assets/images/m-people-diagrams-2.svg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: auto auto;
+            margin: 0 0 50px 0px;
+        }
+        &-soclinks{
+            display: none;
+        }
+    }
+
     // block footer
     .footerTop{
         position: relative;
