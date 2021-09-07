@@ -239,7 +239,7 @@ body {
   background: #FF5300;
   -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
           box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
-  background-image: url(../../assets/images/m-icon-white-code.svg);
+  background-image: url(../../assets/images/m-icon-white-fb.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 24px 24px;
@@ -490,11 +490,26 @@ body {
   z-index: 5;
 }
 .footerSoc-Fb {
-  background: #FF5300;
-  background-image: url(../../assets/images/m-icon-white-fb.svg);
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  background-image: url(../../assets/images/m-icon-orange-fb.svg);
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-position: center;
+  -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+}
+.footerSoc-Fb:hover {
+  background: #FF5300;
+  -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+          box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+  background-image: url(../../assets/images/m-icon-white-fb.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
 }
 .footerSoc-Inst {
   background: #FFFFFF;
@@ -504,6 +519,19 @@ body {
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-position: center;
+  -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+}
+.footerSoc-Inst:hover {
+  background: #FF5300;
+  -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+          box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+  background-image: url(../../assets/images/m-icon-white-fb.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
 }
 .footerSoc-Twit {
   background: #FFFFFF;
@@ -513,6 +541,19 @@ body {
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-position: center;
+  -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+}
+.footerSoc-Twit:hover {
+  background: #FF5300;
+  -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+          box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+  background-image: url(../../assets/images/m-icon-white-fb.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
 }
 .footerSoc-Skype {
   background: #FFFFFF;
@@ -522,6 +563,19 @@ body {
   background-repeat: no-repeat;
   background-size: 24px 24px;
   background-position: center;
+  -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+}
+.footerSoc-Skype:hover {
+  background: #FF5300;
+  -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+          box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+  background-image: url(../../assets/images/m-icon-white-fb.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
 }
 
 .footerForm {
@@ -698,6 +752,19 @@ body {
     height: 40px;
   }
   .RightSoclinks-Fb {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-fb.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+    -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  }
+  .RightSoclinks-Fb:hover {
     background: #FF5300;
     -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
             box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
@@ -714,6 +781,19 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 24px 24px;
+    -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  }
+  .RightSoclinks-Inst:hover {
+    background: #FF5300;
+    -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+            box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+    background-image: url(../../assets/images/m-icon-white-fb.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
   }
   .RightSoclinks-Twit {
     background: #FFFFFF;
@@ -723,12 +803,38 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 24px 24px;
+    -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  }
+  .RightSoclinks-Twit:hover {
+    background: #FF5300;
+    -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+            box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+    background-image: url(../../assets/images/m-icon-white-fb.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
   }
   .RightSoclinks-Skype {
     background: #FFFFFF;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     background-image: url(../../assets/images/m-icon-orange-skype.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+    -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  }
+  .RightSoclinks-Skype:hover {
+    background: #FF5300;
+    -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+            box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+    background-image: url(../../assets/images/m-icon-white-fb.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 24px 24px;
@@ -946,8 +1052,34 @@ body {
     background-repeat: no-repeat;
     background-size: 18px 18px;
     background-position: center;
+    -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  }
+  .footerSoc-Fb:hover {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-fb.svg);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: center;
   }
   .footerSoc-Inst {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-instagram.svg);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: center;
+    -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  }
+  .footerSoc-Inst:hover {
     background: #FFFFFF;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
@@ -964,8 +1096,34 @@ body {
     background-repeat: no-repeat;
     background-size: 18px 18px;
     background-position: center;
+    -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  }
+  .footerSoc-Twit:hover {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-twitter.svg);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: center;
   }
   .footerSoc-Skype {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-skype.svg);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: center;
+    -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  }
+  .footerSoc-Skype:hover {
     background: #FFFFFF;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
@@ -1309,11 +1467,37 @@ body {
     background-repeat: no-repeat;
     background-size: 24px 24px;
     background-position: center;
+    -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  }
+  .footerSoc-Fb:hover {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    background-image: url(../../assets/images/m-icon-orange-fb.svg);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
   }
   .footerSoc-Inst {
     background: #FFFFFF;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-instagram.svg);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+    -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  }
+  .footerSoc-Inst:hover {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
     background-image: url(../../assets/images/m-icon-orange-instagram.svg);
     background-repeat: no-repeat;
     background-size: 24px 24px;
@@ -1327,11 +1511,37 @@ body {
     background-repeat: no-repeat;
     background-size: 24px 24px;
     background-position: center;
+    -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  }
+  .footerSoc-Twit:hover {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    background-image: url(../../assets/images/m-icon-orange-twitter.svg);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
   }
   .footerSoc-Skype {
     background: #FFFFFF;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-skype.svg);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+    -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  }
+  .footerSoc-Skype:hover {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
     background-image: url(../../assets/images/m-icon-orange-skype.svg);
     background-repeat: no-repeat;
     background-size: 24px 24px;

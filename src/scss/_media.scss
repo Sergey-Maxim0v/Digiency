@@ -68,12 +68,21 @@
             height: 40px;
         }
         &-Fb{
-            background: #FF5300;
-            box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
-            background-image: url(../../assets/images/m-icon-white-fb.svg);
+            background: #FFFFFF;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            background-image: url(../../assets/images/m-icon-orange-fb.svg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: 24px 24px;
+            transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+            &:hover{
+              background: #FF5300;
+              box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+              background-image: url(../../assets/images/m-icon-white-fb.svg);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: 24px 24px;
+            }
         }
         &-Inst{
             background: #FFFFFF;
@@ -82,6 +91,15 @@
             background-repeat: no-repeat;
             background-position: center;
             background-size: 24px 24px;
+            transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+            &:hover{
+              background: #FF5300;
+              box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+              background-image: url(../../assets/images/m-icon-white-fb.svg);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: 24px 24px;
+            }
         }
         &-Twit{
             background: #FFFFFF;
@@ -90,6 +108,15 @@
             background-repeat: no-repeat;
             background-position: center;
             background-size: 24px 24px;
+            transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+            &:hover{
+              background: #FF5300;
+              box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+              background-image: url(../../assets/images/m-icon-white-fb.svg);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: 24px 24px;
+            }
         }
         &-Skype{
             background: #FFFFFF;
@@ -98,6 +125,15 @@
             background-repeat: no-repeat;
             background-position: center;
             background-size: 24px 24px;
+            transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+            &:hover{
+              background: #FF5300;
+              box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+              background-image: url(../../assets/images/m-icon-white-fb.svg);
+              background-repeat: no-repeat;
+              background-position: center;
+              background-size: 24px 24px;
+            }
         }
     }
 
@@ -264,6 +300,15 @@
             background-repeat: no-repeat;
             background-size: 18px 18px;
             background-position: center;
+            transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+            &:hover{
+                background: #FFFFFF;
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                background-image: url(../../assets/images/m-icon-orange-fb.svg);
+                background-repeat: no-repeat;
+                background-size: 18px 18px;
+                background-position: center;
+            }
         }
         &-Inst {
             background: #FFFFFF;
@@ -272,6 +317,15 @@
             background-repeat: no-repeat;
             background-size: 18px 18px;
             background-position: center;
+            transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+            &:hover{
+                background: #FFFFFF;
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                background-image: url(../../assets/images/m-icon-orange-instagram.svg);
+                background-repeat: no-repeat;
+                background-size: 18px 18px;
+                background-position: center;
+            }
         }
         &-Twit {
             background: #FFFFFF;
@@ -280,6 +334,15 @@
             background-repeat: no-repeat;
             background-size: 18px 18px;
             background-position: center;
+            transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+            &:hover{
+                background: #FFFFFF;
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                background-image: url(../../assets/images/m-icon-orange-twitter.svg);
+                background-repeat: no-repeat;
+                background-size: 18px 18px;
+                background-position: center;
+            }
         }
         &-Skype {
             background: #FFFFFF;
@@ -288,6 +351,15 @@
             background-repeat: no-repeat;
             background-size: 18px 18px;
             background-position: center;
+            transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+            &:hover{
+                background: #FFFFFF;
+                box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+                background-image: url(../../assets/images/m-icon-orange-skype.svg);
+                background-repeat: no-repeat;
+                background-size: 18px 18px;
+                background-position: center;
+            }
         }
     }
     .footerForm{
@@ -534,10 +606,19 @@
         }
         &-Fb {
             background: #FFFFFF;
-          background-image: url(../../assets/images/m-icon-orange-fb.svg);
-          background-repeat: no-repeat;
-          background-size: 24px 24px;
-          background-position: center;
+            background-image: url(../../assets/images/m-icon-orange-fb.svg);
+            background-repeat: no-repeat;
+            background-size: 24px 24px;
+            background-position: center;
+            transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+            &:hover{
+                background: #FFFFFF;
+                box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+                background-image: url(../../assets/images/m-icon-orange-fb.svg);
+                background-repeat: no-repeat;
+                background-size: 24px 24px;
+                background-position: center;
+            }
         }
         &-Inst {
           background: #FFFFFF;
@@ -546,6 +627,15 @@
           background-repeat: no-repeat;
           background-size: 24px 24px;
           background-position: center;
+          transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+          &:hover{
+              background: #FFFFFF;
+              box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+              background-image: url(../../assets/images/m-icon-orange-instagram.svg);
+              background-repeat: no-repeat;
+              background-size: 24px 24px;
+              background-position: center;
+          }
         }
         &-Twit {
           background: #FFFFFF;
@@ -554,6 +644,15 @@
           background-repeat: no-repeat;
           background-size: 24px 24px;
           background-position: center;
+          transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+          &:hover{
+              background: #FFFFFF;
+              box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+              background-image: url(../../assets/images/m-icon-orange-twitter.svg);
+              background-repeat: no-repeat;
+              background-size: 24px 24px;
+              background-position: center;
+          }
         }
         &-Skype {
           background: #FFFFFF;
@@ -562,6 +661,15 @@
           background-repeat: no-repeat;
           background-size: 24px 24px;
           background-position: center;
+          transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+          &:hover{
+              background: #FFFFFF;
+              box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+              background-image: url(../../assets/images/m-icon-orange-skype.svg);
+              background-repeat: no-repeat;
+              background-size: 24px 24px;
+              background-position: center;
+          }
         }
     }
     .footerForm{

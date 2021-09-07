@@ -3,23 +3,10 @@
 
 //cleansing
 *{ padding: 0; margin: 0; border: 0; }
-*,*:before,*::after{
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
+*,*:before,*::after{  -moz-box-sizing: border-box;  -webkit-box-sizing: border-box;  box-sizing: border-box;}
 :focus,:active{outline: none;}
 a:footer,header,aside{display: block;}
-html,body{
-  height: 100%;
-  width: 100%;
-  font-size: 100%;
-  line-height: 1;
-  font-size: 14px;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
+html,body{  height: 100%;  width: 100%;  font-size: 100%;  line-height: 1;  font-size: 14px;  -ms-text-size-adjust: 100%;  -moz-text-size-adjust: 100%;  -webkit-text-size-adjust: 100%;}
 input,button,textarea{font-family:inherit;}
 input::-ms-clear{display: none;}
 button{cursor: pointer;}
@@ -148,7 +135,7 @@ body {
     &:hover{
       background: #FF5300;
       box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
-      background-image: url(../../assets/images/m-icon-white-code.svg);
+      background-image: url(../../assets/images/m-icon-white-fb.svg);
       background-repeat: no-repeat;
       background-position: center;
       background-size: 24px 24px;
@@ -340,11 +327,21 @@ body {
     z-index: 5;
   }
   &-Fb {
-    background: #FF5300;
-    background-image: url(../../assets/images/m-icon-white-fb.svg);
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-fb.svg);
     background-repeat: no-repeat;
     background-size: 24px 24px;
     background-position: center;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    &:hover{
+      background: #FF5300;
+      box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+      background-image: url(../../assets/images/m-icon-white-fb.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 24px 24px;
+    }
   }
   &-Inst {
     background: #FFFFFF;
@@ -353,6 +350,15 @@ body {
     background-repeat: no-repeat;
     background-size: 24px 24px;
     background-position: center;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    &:hover{
+      background: #FF5300;
+      box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+      background-image: url(../../assets/images/m-icon-white-fb.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 24px 24px;
+    }
   }
   &-Twit {
     background: #FFFFFF;
@@ -361,6 +367,15 @@ body {
     background-repeat: no-repeat;
     background-size: 24px 24px;
     background-position: center;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    &:hover{
+      background: #FF5300;
+      box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+      background-image: url(../../assets/images/m-icon-white-fb.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 24px 24px;
+    }
   }
   &-Skype {
     background: #FFFFFF;
@@ -369,6 +384,15 @@ body {
     background-repeat: no-repeat;
     background-size: 24px 24px;
     background-position: center;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    &:hover{
+      background: #FF5300;
+      box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+      background-image: url(../../assets/images/m-icon-white-fb.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 24px 24px;
+    }
   }
 }
 .footerForm{
