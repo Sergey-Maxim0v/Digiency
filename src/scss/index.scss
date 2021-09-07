@@ -103,6 +103,92 @@ body {
 .headerBurger{
   display: none;
 }
+
+//Right Soc-slinks
+.RightSoclinks{
+  z-index: 5;
+  position: fixed;
+  top: calc(50vh - 88px);
+  right: 0;
+  width: 40px;
+  height: 175px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  & a{
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+  &-Fb{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-fb.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    &:hover{
+      background: #FF5300;
+      box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+      background-image: url(../../assets/images/m-icon-white-fb.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 24px 24px;
+    }
+  }
+  &-Inst{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-instagram.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    &:hover{
+      background: #FF5300;
+      box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+      background-image: url(../../assets/images/m-icon-white-code.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 24px 24px;
+    }
+  }
+  &-Twit{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    &:hover{
+      background: #FF5300;
+      box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+      background-image: url(../../assets/images/m-icon-white-fb.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 24px 24px;
+    }
+  }
+  &-Skype{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-skype.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    &:hover{
+      background: #FF5300;
+      box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+      background-image: url(../../assets/images/m-icon-white-fb.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 24px 24px;
+    }
+  }
+}
 // section top
 .hSectionTop{
   position: relative;
@@ -169,52 +255,6 @@ body {
     background-size: cover;
     background-position: auto auto;
     margin: 0 0 0 2.43vw;
-  }
-  &-soclinks{
-    position: absolute;
-    right: 0;
-    width: 40px;
-    height: 175px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    & a{
-      display: block;
-      width: 40px;
-      height: 40px;
-    }
-    &-Fb{
-      background: #FF5300;
-      box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
-      background-image: url(../../assets/images/m-icon-white-fb.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 24px 24px;
-    }
-    &-Inst{
-      background: #FFFFFF;
-      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-      background-image: url(../../assets/images/m-icon-orange-instagram.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 24px 24px;
-    }
-    &-Twit{
-      background: #FFFFFF;
-      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-      background-image: url(../../assets/images/m-icon-orange-twitter.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 24px 24px;
-    }
-    &-Skype{
-      background: #FFFFFF;
-      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-      background-image: url(../../assets/images/m-icon-orange-skype.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 24px 24px;
-    }
   }
 }
 

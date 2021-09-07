@@ -177,6 +177,118 @@ body {
   display: none;
 }
 
+.RightSoclinks {
+  z-index: 5;
+  position: fixed;
+  top: calc(50vh - 88px);
+  right: 0;
+  width: 40px;
+  height: 175px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.RightSoclinks a {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+.RightSoclinks-Fb {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  background-image: url(../../assets/images/m-icon-orange-fb.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+  -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+}
+.RightSoclinks-Fb:hover {
+  background: #FF5300;
+  -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+          box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+  background-image: url(../../assets/images/m-icon-white-fb.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+}
+.RightSoclinks-Inst {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  background-image: url(../../assets/images/m-icon-orange-instagram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+  -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+}
+.RightSoclinks-Inst:hover {
+  background: #FF5300;
+  -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+          box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+  background-image: url(../../assets/images/m-icon-white-code.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+}
+.RightSoclinks-Twit {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  background-image: url(../../assets/images/m-icon-orange-twitter.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+  -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+}
+.RightSoclinks-Twit:hover {
+  background: #FF5300;
+  -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+          box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+  background-image: url(../../assets/images/m-icon-white-fb.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+}
+.RightSoclinks-Skype {
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  background-image: url(../../assets/images/m-icon-orange-skype.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+  -webkit-transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+  transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
+}
+.RightSoclinks-Skype:hover {
+  background: #FF5300;
+  -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+          box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+  background-image: url(../../assets/images/m-icon-white-fb.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+}
+
 .hSectionTop {
   position: relative;
   width: 100%;
@@ -265,63 +377,6 @@ body {
   background-size: cover;
   background-position: auto auto;
   margin: 0 0 0 2.43vw;
-}
-.hSectionTop-soclinks {
-  position: absolute;
-  right: 0;
-  width: 40px;
-  height: 175px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-.hSectionTop-soclinks a {
-  display: block;
-  width: 40px;
-  height: 40px;
-}
-.hSectionTop-soclinks-Fb {
-  background: #FF5300;
-  -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
-          box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
-  background-image: url(../../assets/images/m-icon-white-fb.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 24px 24px;
-}
-.hSectionTop-soclinks-Inst {
-  background: #FFFFFF;
-  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-  background-image: url(../../assets/images/m-icon-orange-instagram.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 24px 24px;
-}
-.hSectionTop-soclinks-Twit {
-  background: #FFFFFF;
-  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-  background-image: url(../../assets/images/m-icon-orange-twitter.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 24px 24px;
-}
-.hSectionTop-soclinks-Skype {
-  background: #FFFFFF;
-  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-  background-image: url(../../assets/images/m-icon-orange-skype.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 24px 24px;
 }
 
 .footer {
@@ -620,6 +675,65 @@ body {
     background-position: center;
   }
 
+  .RightSoclinks {
+    position: fixed;
+    right: 0;
+    top: calc(50vh - 88px);
+    width: 40px;
+    height: 175px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .RightSoclinks a {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+  .RightSoclinks-Fb {
+    background: #FF5300;
+    -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+            box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+    background-image: url(../../assets/images/m-icon-white-fb.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+  }
+  .RightSoclinks-Inst {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-instagram.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+  }
+  .RightSoclinks-Twit {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-twitter.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+  }
+  .RightSoclinks-Skype {
+    background: #FFFFFF;
+    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background-image: url(../../assets/images/m-icon-orange-skype.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24px 24px;
+  }
+
   .hSectionTop {
     position: relative;
     width: 100%;
@@ -710,63 +824,6 @@ body {
     background-size: cover;
     background-position: auto auto;
     margin: 0 0 0 2.43vw;
-  }
-  .hSectionTop-soclinks {
-    position: absolute;
-    right: 0;
-    width: 40px;
-    height: 175px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .hSectionTop-soclinks a {
-    display: block;
-    width: 40px;
-    height: 40px;
-  }
-  .hSectionTop-soclinks-Fb {
-    background: #FF5300;
-    -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
-            box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
-    background-image: url(../../assets/images/m-icon-white-fb.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 24px 24px;
-  }
-  .hSectionTop-soclinks-Inst {
-    background: #FFFFFF;
-    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-    background-image: url(../../assets/images/m-icon-orange-instagram.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 24px 24px;
-  }
-  .hSectionTop-soclinks-Twit {
-    background: #FFFFFF;
-    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-    background-image: url(../../assets/images/m-icon-orange-twitter.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 24px 24px;
-  }
-  .hSectionTop-soclinks-Skype {
-    background: #FFFFFF;
-    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-    background-image: url(../../assets/images/m-icon-orange-skype.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 24px 24px;
   }
 
   .footerTop {
@@ -1044,6 +1101,10 @@ body {
     border-radius: 2px;
   }
 
+  .RightSoclinks {
+    display: none;
+  }
+
   .hSectionTop {
     position: relative;
     width: 100%;
@@ -1147,9 +1208,6 @@ body {
     background-size: cover;
     background-position: auto auto;
     margin: 0 0 50px 0px;
-  }
-  .hSectionTop-soclinks {
-    display: none;
   }
 
   .footerTop {
