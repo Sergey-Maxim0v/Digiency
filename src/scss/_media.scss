@@ -208,6 +208,156 @@
         }
     }
 
+//section About Us
+.hAboutus{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 120px 40px;
+    &-minititle{
+      font-family: "Work Sans";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 150.6%;
+      color: #7B7B7B;
+    }
+    &-mid{
+      display: flex;
+      width: 100%;
+      height: 650px;
+      &-img{
+        display: block;
+        width: 50%;
+        height: 100%;
+        background-image: url(../../assets/images/m-people-table-2.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% auto;
+      }
+      &-content{
+        width: 50%;
+        height:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 20px 0 84px 0;
+        &-title{
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 31.25px;
+          line-height: 123.6%;
+          &-black{
+            color: #373737;
+          }
+          &-orange{
+            color: #FF5300;
+          }
+        }
+        &-text {
+          width: 100%;
+          height: auto;
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 150.6%;
+          color: #7B7B7B;
+        }
+        &-linkbutton{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 150px;
+          height: 50px;
+          background: #FF5300;
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+          border-radius: 5px;
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 123.6%;
+          color: #FFFFFF;
+        }
+      }
+    }
+    &-bot{
+      width: 100%;
+      height: auto;
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      &-block{
+        height: auto;
+        width: 18.75vw;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+        padding: 35px 10px 10px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        &-img{
+          display: block;
+          width: 70px;
+          height: 70px;
+          border-radius: 35px;
+        }
+        &-img1{
+          background: #FF5300;
+          box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+          background-image: url(../../assets/images/m-icon-white-file.svg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 30px 30px;
+        }
+        &-img2{
+          background: #7B7B7B;
+          box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.4);
+          background-image: url(../../assets/images/m-icon-white-code.svg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 30px 30px;
+        }
+        &-img3{
+          background: #00ACFF;
+          box-shadow: 4px 5px 15px rgba(0, 194, 255, 0.4);
+          background-image: url(../../assets/images/m-icon-white-gear.svg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 30px 30px;
+        }
+        &-img4{
+          background: #373737;
+          box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.4);
+          background-image: url(../../assets/images/m-icon-white-link.svg);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 30px 30px;
+        }
+        &-text{
+          width: 100%;
+          height: auto;
+          margin: 36px 0 0 0;
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 150.6%;
+          text-align: center;
+          color: #373737;
+        }
+      }
+    }
+  }
+
     // block footer top
     .footerTop{
         position: relative;
