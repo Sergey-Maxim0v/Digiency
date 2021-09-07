@@ -379,6 +379,202 @@ body {
   margin: 0 0 0 2.43vw;
 }
 
+.hAboutus {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 935px;
+  padding: 120px 9.38vw;
+}
+.hAboutus-minititle {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #7B7B7B;
+}
+.hAboutus-mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.hAboutus-mid-img {
+  display: block;
+  width: 50%;
+  height: 100%;
+  background-image: url(../../assets/images/m-people-table-2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+}
+.hAboutus-mid-content {
+  width: 50%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25px 0 60px 0;
+}
+.hAboutus-mid-content-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39.06px;
+  line-height: 123.6%;
+}
+.hAboutus-mid-content-title-black {
+  color: #373737;
+}
+.hAboutus-mid-content-title-orange {
+  color: #FF5300;
+}
+.hAboutus-mid-content-text {
+  width: 100%;
+  height: auto;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #7B7B7B;
+}
+.hAboutus-mid-content-linkbutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 150px;
+  height: 50px;
+  background: #FF5300;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 123.6%;
+  color: #FFFFFF;
+}
+.hAboutus-bot {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.hAboutus-bot-block {
+  height: 200px;
+  width: 18.75vw;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.hAboutus-bot-block-img {
+  display: block;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+.hAboutus-bot-block-img1 {
+  background: #FF5300;
+  -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+          box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+  background-image: url(../../assets/images/m-icon-white-file.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+.hAboutus-bot-block-img2 {
+  background: #7B7B7B;
+  -webkit-box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.4);
+          box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.4);
+  background-image: url(../../assets/images/m-icon-white-code.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+.hAboutus-bot-block-img3 {
+  background: #00ACFF;
+  -webkit-box-shadow: 4px 5px 15px rgba(0, 194, 255, 0.4);
+          box-shadow: 4px 5px 15px rgba(0, 194, 255, 0.4);
+  background-image: url(../../assets/images/m-icon-white-gear.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+.hAboutus-bot-block-img4 {
+  background: #373737;
+  -webkit-box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.4);
+          box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.4);
+  background-image: url(../../assets/images/m-icon-white-link.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+.hAboutus-bot-block-text {
+  width: 100%;
+  height: auto;
+  margin: 36px 0 0 0;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  text-align: center;
+  color: #373737;
+}
+
 .footer {
   position: relative;
   width: 100%;
