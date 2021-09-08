@@ -495,6 +495,138 @@ body {
   }
 }
 
+// section Team Member
+.hTeam{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px $PadVW 0 $PadVW;
+  &-minititle{
+    width: 100%;
+    height: auto;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: #7B7B7B;
+    text-align: center;
+  }
+  &-title{
+    margin: 25px 0 0 0;
+    width: 450px;
+    height: auto;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39.06px;
+    line-height: 123.6%;
+    text-align: center;
+    &-black{
+      color: #373737;
+    }
+    &-orange {
+      color: #FF5300;
+    }
+  }
+  &-blocks{
+    width: 100%;
+    height: 100%;
+    margin: 60px 0 0 0;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+   &-block{
+      width: 18.75vw;
+      height: calc(17.36vw + 100px);
+      display: flex;
+      flex-direction: column;
+      background: #FFFFFF;
+      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+      &-photoblock{
+        width: 18.75vw;
+        height: 17.36vw;
+        &-soc{
+          width: 100%;
+          height: 100%;
+          opacity: 0;
+          transition: opacity 0.5s;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          &-links {
+            z-index: 5;
+            position: relative;
+            width: 40px;
+            height: 175px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            & a{
+              display: block;
+              width: 40px;
+              height: 40px;
+            }
+          }
+          &:hover{
+            opacity: 1;
+          }
+        }
+      }
+      &-photo1{
+        background-image: url(../../assets/images/m-worker-1@2x.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &-photo2{
+        background-image: url(../../assets/images/m-worker-2@2x.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &-photo3{
+        background-image: url(../../assets/images/m-worker-3@2x.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &-photo4{
+        background-image: url(../../assets/images/m-worker-4@2x.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &-content{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        &-name{
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 123.6%;
+          color: #000000;
+          text-align: center;
+        }
+        &-description{
+          font-family: "Work Sans";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 150.6%;
+          color: #7B7B7B;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+
+
 
 // block footer
 .footer{
