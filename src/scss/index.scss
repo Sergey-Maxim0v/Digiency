@@ -553,8 +553,110 @@ body {
   }
 }
 
-
-
+// section Our Work
+.h-work{
+  width: 100%;
+  height: auto;
+  padding: 120px $PadDeskVW;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &-minititle{
+    text-align: center;
+  }
+  &-title{
+    margin: 25px 0 0 0;
+    text-align: center;
+  }
+  &-links{
+    margin: 25px 0 0 0;
+    display: flex;
+    justify-content: center;
+    &-link{
+      display: inline-block;
+      margin: 0 1.49vw;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 123.6%;
+      transition: color 0.3s;
+      &:hover{
+        color: $orange;
+      }
+    }
+    &-link1{
+      color: $orange;
+    }
+  }
+  &-pictures{
+    margin: 60px 0 0 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    &-column {
+      height: 60.42vw;
+      width: 25.69vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    &-lefttop{
+      width: 25.69vw;
+      height: 25.69vw;
+      background-image: url(../../assets/images/m-project-light-1@2x.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+    }
+    &-leftbot{
+      width: 25.69vw;
+      height: 32.64vw;
+      background-image: url(../../assets/images/m-project-light-4@2x.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+    }
+    &-midtop{
+      width: 25.69vw;
+      height: 32.64vw;
+      background-image: url(../../assets/images/m-project-light-2@2x-1.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+    }
+    &-midbot{
+      width: 25.69vw;
+      height: 25.69vw;
+      background-image: url(../../assets/images/m-project-light-5@2x.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+    }
+    &-righttop{
+      width: 25.69vw;
+      height: 25.69vw;
+      background-image: url(../../assets/images/m-project-light-3@2x.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+    }
+    &-rightbot{
+      width: 25.69vw;
+      height: 32.64vw;
+      background-image: url(../../assets/images/m-project-light-6@2x.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+    }
+  }
+}
 
 // block footer
 .footer{
