@@ -1570,6 +1570,131 @@
         }
     }
 
+    // section feedback
+    .h-feedback{
+        position: relative;
+        width: 100%;
+        height: 470px;
+        padding: 50px $PadPhonkVW;
+        background-color: $peach;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        &-title{
+            margin: 18px 0 0 0;
+            width: 100%;
+            text-align: center;
+        }
+        &-blocks{
+            margin: 18px 0 0 0;
+            padding: 0 0 0 40px;
+            height: 250px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            &-block{
+                position: relative;
+                height: 177px;
+                width: 60.27vw;
+                background: $orange;
+                box-shadow: $shadowdark;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 26px 32px 15px 35px;
+                &-name{
+                    font-family: $font-main;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 150.6%;
+                    text-align: center;
+                    color: $white;
+                }
+                &-desc{
+                    margin: 7px 0 0 0;
+                    font-family: $font-main;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12.8px;
+                    line-height: 123.6%;
+                    text-align: center;
+                    color: $white;
+                }
+                &-text{
+                    margin: 12px 0 0 0;
+                    font-family: $font-main;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 150.6%;
+                    color: $white;
+                    overflow: hidden;
+                }
+            }
+            &-block2{
+                display: none;
+            }
+            &-block1::before{
+                content: "";
+                position: absolute;
+                left: -25px;
+                height: 50px;
+                width: 50px;
+                border-radius: 40px;
+                background-image: url(../../assets/images/m-user-justin@2x.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            &-block2::before{
+                content: "";
+                position: absolute;
+                left: -25px;
+                height: 50px;
+                width: 50px;
+                border-radius: 40px;
+                background-image: url(../../assets/images/m-user-ashlynn@2x.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+        &-buttons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+            &-left{
+                margin: 0 2px;
+                display: block;
+                width: 15px;
+                height: 15px;
+                border-radius: 8px;
+                background-color: $orange;
+            }
+            &-mid{
+                margin: 0 2px;
+                display: block;
+                width: 49px;
+                height: 15px;
+                border-radius: 8px;
+                background-color: $darkgray;
+            }
+            &-right{
+                margin: 0 2px;
+                display: block;
+                width: 15px;
+                height: 15px;
+                border-radius: 8px;
+                background-color: $lightgrey;
+            }
+        }
+    }
+
+
     // block footer
     .footerTop{
         position: relative;
