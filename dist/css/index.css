@@ -2362,6 +2362,23 @@ body {
     display: none;
   }
 
+  .headerLinkStyle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: 0 0 0 0;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: white;
+    background-image: url(../../assets/images/m-icon-dark-sun.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
   .headerBurger {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2958,6 +2975,204 @@ body {
   }
   .hTeam-blocks-block4 {
     display: none;
+  }
+
+  .h-work {
+    margin: 50px 0 0 0;
+    width: 100%;
+    height: auto;
+    padding: 50px 16px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .h-work-minititle {
+    text-align: center;
+  }
+  .h-work-title {
+    margin: 18px 0 0 0;
+    text-align: center;
+  }
+  .h-work-links {
+    margin: 25px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .h-work-links-link {
+    display: inline-block;
+    margin: 5px 18px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150.6%;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    text-align: center;
+  }
+  .h-work-links-link:hover {
+    color: #7B7B7B;
+  }
+  .h-work-links-link1 {
+    color: #FF5300;
+  }
+  .h-work-pictures {
+    margin: 32px 0 50px 0;
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .h-work-pictures-column {
+    height: 100%;
+    width: 91.47vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .h-work-pictures-lefttop {
+    width: 91.47vw;
+    height: 125.33vw;
+    background-image: url(../../assets/images/m-project-light-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    -webkit-filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+            filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+  }
+  .h-work-pictures-lefttop-inside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 83, 0, 0.9)), to(rgba(255, 83, 0, 0.9)));
+    background: linear-gradient(0deg, rgba(255, 83, 0, 0.9), rgba(255, 83, 0, 0.9));
+    padding: 45px 20px;
+  }
+  .h-work-pictures-lefttop-inside-icon {
+    margin: 20px 0;
+    width: 40px;
+    height: 40px;
+    background-image: url(../../assets/images/m-icon-dark-search.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .h-work-pictures-lefttop-inside-title {
+    margin: 20px 0;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    color: white;
+  }
+  .h-work-pictures-lefttop-inside-text {
+    margin: 20px 0;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: white;
+  }
+  .h-work-pictures-leftbot {
+    width: 91.47vw;
+    height: 125.33vw;
+    background-image: url(../../assets/images/m-project-light-4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    -webkit-filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+            filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+  }
+  .h-work-pictures-midtop {
+    width: 91.47vw;
+    height: 125.33vw;
+    background-image: url(../../assets/images/m-project-light-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    -webkit-filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+            filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+  }
+  .h-work-pictures-midbot {
+    width: 91.47vw;
+    height: 125.33vw;
+    background-image: url(../../assets/images/m-project-light-5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    -webkit-filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+            filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+  }
+  .h-work-pictures-righttop {
+    width: 91.47vw;
+    height: 125.33vw;
+    background-image: url(../../assets/images/m-project-light-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    -webkit-filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+            filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+  }
+  .h-work-pictures-rightbot {
+    width: 91.47vw;
+    height: 125.33vw;
+    background-image: url(../../assets/images/m-project-light-6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    -webkit-filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+            filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
   }
 
   .footerTop {
