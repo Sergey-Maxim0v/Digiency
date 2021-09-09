@@ -897,6 +897,9 @@ body {
   -webkit-filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
           filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
 }
+.h-work-pictures-lefttop-inside {
+  display: none;
+}
 .h-work-pictures-leftbot {
   width: 25.69vw;
   height: 32.64vw;
@@ -1870,6 +1873,183 @@ body {
   }
   .hTeam-blocks-block4 {
     display: none;
+  }
+
+  .h-work {
+    width: 100%;
+    height: auto;
+    padding: 120px 40px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .h-work-minititle {
+    text-align: center;
+  }
+  .h-work-title {
+    margin: 18px 0 0 0;
+    text-align: center;
+  }
+  .h-work-links {
+    margin: 25px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .h-work-links-link {
+    display: inline-block;
+    margin: 0 1.49vw;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+  }
+  .h-work-links-link:hover {
+    color: #FF5300;
+  }
+  .h-work-links-link1 {
+    color: #FF5300;
+  }
+  .h-work-pictures {
+    margin: 60px 0 0 0;
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .h-work-pictures-column {
+    height: 65.63vw;
+    width: 27.73vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .h-work-pictures-lefttop {
+    width: 27.73vw;
+    height: 29.95;
+    background-image: url(../../assets/images/m-project-light-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    -webkit-filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+            filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+  }
+  .h-work-pictures-lefttop-inside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 83, 0, 0.9)), to(rgba(255, 83, 0, 0.9)));
+    background: linear-gradient(0deg, rgba(255, 83, 0, 0.9), rgba(255, 83, 0, 0.9));
+    padding: 45px 20px;
+  }
+  .h-work-pictures-lefttop-inside-icon {
+    width: 40px;
+    height: 40px;
+    background-image: url(../../assets/images/m-icon-dark-search.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .h-work-pictures-lefttop-inside-title {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    color: white;
+  }
+  .h-work-pictures-lefttop-inside-text {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: white;
+  }
+  .h-work-pictures-leftbot {
+    width: 27.73vw;
+    height: 32.55vw;
+    background-image: url(../../assets/images/m-project-light-4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    -webkit-filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+            filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+  }
+  .h-work-pictures-midtop {
+    width: 27.73vw;
+    height: 36.46vw;
+    background-image: url(../../assets/images/m-project-light-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    -webkit-filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+            filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+  }
+  .h-work-pictures-midbot {
+    width: 27.73vw;
+    height: 27.73vw;
+    background-image: url(../../assets/images/m-project-light-5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    -webkit-filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+            filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+  }
+  .h-work-pictures-righttop {
+    width: 27.73vw;
+    height: 27.73vw;
+    background-image: url(../../assets/images/m-project-light-3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    -webkit-filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+            filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+  }
+  .h-work-pictures-rightbot {
+    width: 27.73vw;
+    height: 32.55vw;
+    background-image: url(../../assets/images/m-project-light-6.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    -webkit-filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
+            filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
   }
 
   .footerTop {
