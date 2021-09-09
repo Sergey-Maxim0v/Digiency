@@ -100,12 +100,30 @@ body {
   height: auto;
   font-family: "Work Sans";
   font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #7B7B7B;
+}
+
+.Title3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39.06px;
+  line-height: 123.6%;
+}
+.Title3-black {
+  color: #373737;
+}
+.Title3-orange {
+  color: #FF5300;
 }
 
 .header {
   width: 100%;
   height: 100px;
-  background: #FFFFFF;
+  background: white;
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   padding: 0 9.38vw;
@@ -201,7 +219,7 @@ body {
   height: 40px;
 }
 .RightSoclinks-Fb {
-  background: #FFFFFF;
+  background: white;
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   background-image: url(../../assets/images/m-icon-orange-fb.svg);
@@ -223,7 +241,7 @@ body {
   background-size: 24px 24px;
 }
 .RightSoclinks-Inst {
-  background: #FFFFFF;
+  background: white;
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   background-image: url(../../assets/images/m-icon-orange-instagram.svg);
@@ -245,7 +263,7 @@ body {
   background-size: 24px 24px;
 }
 .RightSoclinks-Twit {
-  background: #FFFFFF;
+  background: white;
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   background-image: url(../../assets/images/m-icon-orange-twitter.svg);
@@ -267,7 +285,7 @@ body {
   background-size: 24px 24px;
 }
 .RightSoclinks-Skype {
-  background: #FFFFFF;
+  background: white;
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   background-image: url(../../assets/images/m-icon-orange-skype.svg);
@@ -310,7 +328,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 123.6%;
-  color: #FFFFFF;
+  color: white;
 }
 
 .hSectionTop {
@@ -361,14 +379,6 @@ body {
 .hSectionTop-content-Tytle-Orange {
   color: #FF5300;
 }
-.hSectionTop-content-text {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150.6%;
-  color: #7B7B7B;
-}
 .hSectionTop-img {
   position: relative;
   height: 30vw;
@@ -405,12 +415,6 @@ body {
       -ms-flex-order: 1;
           order: 1;
   width: 100%;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150.6%;
-  color: #7B7B7B;
 }
 .hAboutus-mid {
   display: -webkit-box;
@@ -454,28 +458,9 @@ body {
           justify-content: space-between;
   padding: 25px 0 60px 0;
 }
-.hAboutus-mid-content-title {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 39.06px;
-  line-height: 123.6%;
-}
-.hAboutus-mid-content-title-black {
-  color: #373737;
-}
-.hAboutus-mid-content-title-orange {
-  color: #FF5300;
-}
 .hAboutus-mid-content-text {
   width: 100%;
   height: auto;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150.6%;
-  color: #7B7B7B;
 }
 .hAboutus-bot {
   width: 100%;
@@ -493,7 +478,7 @@ body {
 .hAboutus-bot-block {
   height: 200px;
   width: 18.75vw;
-  background: #FFFFFF;
+  background: white;
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   padding: 25px;
@@ -557,13 +542,7 @@ body {
   width: 100%;
   height: auto;
   margin: 36px 0 0 0;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150.6%;
   text-align: center;
-  color: #373737;
 }
 
 .hExpereince {
@@ -600,33 +579,6 @@ body {
 }
 .hExpereince-content-minititle {
   width: 100%;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150.6%;
-  color: #7B7B7B;
-}
-.hExpereince-content-title {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 39.06px;
-  line-height: 123.6%;
-}
-.hExpereince-content-title-black {
-  color: #373737;
-}
-.hExpereince-content-title-orange {
-  color: #FF5300;
-}
-.hExpereince-content-text {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150.6%;
-  color: #7B7B7B;
 }
 .hExpereince-blocks {
   margin: 0 0 0 30px;
@@ -692,7 +644,7 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #FFFFFF;
+  background: white;
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   padding: 74px 40px;
@@ -737,30 +689,13 @@ body {
 .hTeam-minititle {
   width: 100%;
   height: auto;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150.6%;
-  color: #7B7B7B;
   text-align: center;
 }
 .hTeam-title {
   margin: 25px 0 0 0;
   width: 450px;
   height: auto;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 39.06px;
-  line-height: 123.6%;
   text-align: center;
-}
-.hTeam-title-black {
-  color: #373737;
-}
-.hTeam-title-orange {
-  color: #FF5300;
 }
 .hTeam-blocks {
   width: 100%;
@@ -786,7 +721,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: #FFFFFF;
+  background: white;
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
 }
@@ -877,12 +812,6 @@ body {
   text-align: center;
 }
 .hTeam-blocks-block-content-description {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150.6%;
-  color: #7B7B7B;
   text-align: center;
 }
 
@@ -949,35 +878,25 @@ body {
   font-size: 39.06px;
   line-height: 123.6%;
   text-align: center;
-  color: #FFFFFF;
+  color: white;
 }
 .footerBlocks-Title-Orange {
   color: #FF5300;
 }
 .footerBlocks-Title-White {
-  color: #FFFFFF;
+  color: white;
 }
 .footerBlocks-filling {
   display: block;
   width: 100%;
   height: auto;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150.6%;
-  color: #FFFFFF;
+  color: white;
 }
 .footerBlocks-Link {
   display: block;
   width: 100%;
   height: auto;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150.6%;
-  color: #FFFFFF;
+  color: white;
 }
 
 .footerSoc {
@@ -997,7 +916,7 @@ body {
   z-index: 5;
 }
 .footerSoc-Fb {
-  background: #FFFFFF;
+  background: white;
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   background-image: url(../../assets/images/m-icon-orange-fb.svg);
@@ -1019,7 +938,7 @@ body {
   background-size: 24px 24px;
 }
 .footerSoc-Inst {
-  background: #FFFFFF;
+  background: white;
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   background-image: url(../../assets/images/m-icon-orange-instagram.svg);
@@ -1041,7 +960,7 @@ body {
   background-size: 24px 24px;
 }
 .footerSoc-Twit {
-  background: #FFFFFF;
+  background: white;
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   background-image: url(../../assets/images/m-icon-orange-twitter.svg);
@@ -1063,7 +982,7 @@ body {
   background-size: 24px 24px;
 }
 .footerSoc-Skype {
-  background: #FFFFFF;
+  background: white;
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   background-image: url(../../assets/images/m-icon-orange-skype.svg);
@@ -1099,14 +1018,8 @@ body {
   width: 100%;
   height: 100%;
   background: #373737;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150.6%;
   text-align: left;
   padding: 0 18px;
-  color: #7B7B7B;
 }
 .footerForm-Button {
   width: 81px;
@@ -1137,12 +1050,7 @@ body {
 
 .footerCopyright {
   position: relative;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150.6%;
-  color: #FFFFFF;
+  color: white;
   margin: 0 0 0 40px;
 }
 .footerCopyright::before {
@@ -1168,10 +1076,24 @@ body {
 }
 
 @media (max-width: 1024px) {
+  .Title3 {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31.25px;
+    line-height: 123.6%;
+  }
+  .Title3-black {
+    color: #373737;
+  }
+  .Title3-orange {
+    color: #FF5300;
+  }
+
   .header {
     width: 100%;
     height: 80px;
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     padding: 0 40px;
@@ -1259,7 +1181,7 @@ body {
     height: 40px;
   }
   .RightSoclinks-Fb {
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     background-image: url(../../assets/images/m-icon-orange-fb.svg);
@@ -1281,7 +1203,7 @@ body {
     background-size: 24px 24px;
   }
   .RightSoclinks-Inst {
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     background-image: url(../../assets/images/m-icon-orange-instagram.svg);
@@ -1303,7 +1225,7 @@ body {
     background-size: 24px 24px;
   }
   .RightSoclinks-Twit {
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     background-image: url(../../assets/images/m-icon-orange-twitter.svg);
@@ -1325,7 +1247,7 @@ body {
     background-size: 24px 24px;
   }
   .RightSoclinks-Skype {
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     background-image: url(../../assets/images/m-icon-orange-skype.svg);
@@ -1477,19 +1399,6 @@ body {
             justify-content: space-between;
     padding: 20px 0 84px 0;
   }
-  .hAboutus-mid-content-title {
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 31.25px;
-    line-height: 123.6%;
-  }
-  .hAboutus-mid-content-title-black {
-    color: #373737;
-  }
-  .hAboutus-mid-content-title-orange {
-    color: #FF5300;
-  }
   .hAboutus-mid-content-text {
     width: 100%;
     height: auto;
@@ -1516,7 +1425,7 @@ body {
   .hAboutus-bot-block {
     height: auto;
     width: 18.75vw;
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     padding: 35px 10px 10px 10px;
@@ -1630,19 +1539,6 @@ body {
     line-height: 150.6%;
     color: #7B7B7B;
   }
-  .hExpereince-content-title {
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 31.25px;
-    line-height: 123.6%;
-  }
-  .hExpereince-content-title-black {
-    color: #373737;
-  }
-  .hExpereince-content-title-orange {
-    color: #FF5300;
-  }
   .hExpereince-content-text {
     font-family: "Work Sans";
     font-style: normal;
@@ -1715,7 +1611,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     padding: 74px 40px;
@@ -1772,18 +1668,7 @@ body {
     margin: 25px 0 0 0;
     width: 450px;
     height: auto;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 31.25px;
-    line-height: 123.6%;
     text-align: center;
-  }
-  .hTeam-title-black {
-    color: #373737;
-  }
-  .hTeam-title-orange {
-    color: #FF5300;
   }
   .hTeam-blocks {
     width: 100%;
@@ -1809,7 +1694,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   }
@@ -1900,7 +1785,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 123.6%;
-    color: #000000;
+    color: #000;
     text-align: center;
   }
   .hTeam-blocks-block-content-description {
@@ -1965,7 +1850,7 @@ body {
     font-weight: 500;
     font-size: 25px;
     line-height: 123.6%;
-    color: #FFFFFF;
+    color: white;
   }
   .footerBlocks-Title-Orange {
     font-family: "Work Sans";
@@ -1983,7 +1868,7 @@ body {
     font-size: 25px;
     line-height: 123.6%;
     text-align: center;
-    color: #FFFFFF;
+    color: white;
   }
   .footerBlocks-filling {
     display: block;
@@ -1994,7 +1879,7 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 150.6%;
-    color: #FFFFFF;
+    color: white;
   }
   .footerBlocks-Link {
     display: block;
@@ -2005,7 +1890,7 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 150.6%;
-    color: #FFFFFF;
+    color: white;
   }
 
   .footer-Text {
@@ -2031,7 +1916,7 @@ body {
     z-index: 5;
   }
   .footerSoc-Fb {
-    background: #FFFFFF;
+    background: white;
     background-image: url(../../assets/images/m-icon-orange-fb.svg);
     background-repeat: no-repeat;
     background-size: 18px 18px;
@@ -2042,7 +1927,7 @@ body {
     transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
   }
   .footerSoc-Fb:hover {
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     background-image: url(../../assets/images/m-icon-orange-fb.svg);
@@ -2051,7 +1936,7 @@ body {
     background-position: center;
   }
   .footerSoc-Inst {
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     background-image: url(../../assets/images/m-icon-orange-instagram.svg);
@@ -2064,7 +1949,7 @@ body {
     transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
   }
   .footerSoc-Inst:hover {
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     background-image: url(../../assets/images/m-icon-orange-instagram.svg);
@@ -2073,7 +1958,7 @@ body {
     background-position: center;
   }
   .footerSoc-Twit {
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     background-image: url(../../assets/images/m-icon-orange-twitter.svg);
@@ -2086,7 +1971,7 @@ body {
     transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
   }
   .footerSoc-Twit:hover {
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     background-image: url(../../assets/images/m-icon-orange-twitter.svg);
@@ -2095,7 +1980,7 @@ body {
     background-position: center;
   }
   .footerSoc-Skype {
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     background-image: url(../../assets/images/m-icon-orange-skype.svg);
@@ -2108,7 +1993,7 @@ body {
     transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
   }
   .footerSoc-Skype:hover {
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     background-image: url(../../assets/images/m-icon-orange-skype.svg);
@@ -2173,13 +2058,28 @@ body {
   }
 }
 @media (max-width: 600px) {
+  Title3 {
+    width: 260px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+  }
+  Title3-black {
+    color: #373737;
+  }
+  Title3-orange {
+    color: #FF5300;
+  }
+
   .header {
     width: 100%;
     height: 50px;
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0;
             box-shadow: 0;
-    padding: 0 14px;
+    padding: 0 16px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2251,7 +2151,7 @@ body {
     position: relative;
     width: 100%;
     height: 733px;
-    padding: 100px 20px 50px 20px;
+    padding: 100px 16px 50px 16px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2289,20 +2189,9 @@ body {
             justify-content: space-between;
   }
   .hSectionTop-content-Tytle {
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 31.25px;
-    line-height: 123.6%;
     text-align: center;
     text-transform: capitalize;
     margin: 0 0 20px 0;
-  }
-  .hSectionTop-content-Tytle-Black {
-    color: #373737;
-  }
-  .hSectionTop-content-Tytle-Orange {
-    color: #FF5300;
   }
   .hSectionTop-content-text {
     font-family: "Work Sans";
@@ -2336,7 +2225,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 123.6%;
-    color: #FFFFFF;
+    color: white;
   }
   .hSectionTop-img {
     -webkit-box-ordinal-group: 2;
@@ -2423,20 +2312,6 @@ body {
             justify-content: space-between;
     padding: 20px 0 84px 0;
   }
-  .hAboutus-mid-content-title {
-    width: 260px;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 123.6%;
-  }
-  .hAboutus-mid-content-title-black {
-    color: #373737;
-  }
-  .hAboutus-mid-content-title-orange {
-    color: #FF5300;
-  }
   .hAboutus-mid-content-text {
     margin: 18px 0;
     width: 100%;
@@ -2469,7 +2344,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 123.6%;
-    color: #FFFFFF;
+    color: white;
   }
   .hAboutus-bot {
     width: 100%;
@@ -2492,7 +2367,7 @@ body {
     margin: 12px 0;
     height: 200px;
     width: 100%;
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     padding: 35px 10px 10px 10px;
@@ -2613,19 +2488,8 @@ body {
     text-align: center;
   }
   .hExpereince-content-title {
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 123.6%;
     text-align: center;
     margin: 18px 0;
-  }
-  .hExpereince-content-title-black {
-    color: #373737;
-  }
-  .hExpereince-content-title-orange {
-    color: #FF5300;
   }
   .hExpereince-content-text {
     font-family: "Work Sans";
@@ -2705,7 +2569,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     padding: 74px 40px;
@@ -2763,18 +2627,7 @@ body {
     margin: 25px 0 0 0;
     width: 220px;
     height: auto;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 123.6%;
     text-align: center;
-  }
-  .hTeam-title-black {
-    color: #373737;
-  }
-  .hTeam-title-orange {
-    color: #FF5300;
   }
   .hTeam-blocks {
     width: 100%;
@@ -2800,7 +2653,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
   }
@@ -2891,7 +2744,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 123.6%;
-    color: #000000;
+    color: #000;
     text-align: center;
   }
   .hTeam-blocks-block-content-description {
@@ -2963,7 +2816,7 @@ body {
     font-weight: 600;
     font-size: 31.25px;
     line-height: 123.6%;
-    color: #FFFFFF;
+    color: white;
   }
   .footerBlocks-Title-Orange {
     font-family: "Work Sans";
@@ -2981,7 +2834,7 @@ body {
     font-size: 31.25px;
     line-height: 123.6%;
     text-align: center;
-    color: #FFFFFF;
+    color: white;
   }
 
   .footer-Text {
@@ -3007,7 +2860,7 @@ body {
     z-index: 5;
   }
   .footerSoc-Fb {
-    background: #FFFFFF;
+    background: white;
     background-image: url(../../assets/images/m-icon-orange-fb.svg);
     background-repeat: no-repeat;
     background-size: 24px 24px;
@@ -3018,7 +2871,7 @@ body {
     transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
   }
   .footerSoc-Fb:hover {
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
             box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
     background-image: url(../../assets/images/m-icon-orange-fb.svg);
@@ -3027,7 +2880,7 @@ body {
     background-position: center;
   }
   .footerSoc-Inst {
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     background-image: url(../../assets/images/m-icon-orange-instagram.svg);
@@ -3040,7 +2893,7 @@ body {
     transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
   }
   .footerSoc-Inst:hover {
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
             box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
     background-image: url(../../assets/images/m-icon-orange-instagram.svg);
@@ -3049,7 +2902,7 @@ body {
     background-position: center;
   }
   .footerSoc-Twit {
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     background-image: url(../../assets/images/m-icon-orange-twitter.svg);
@@ -3062,7 +2915,7 @@ body {
     transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
   }
   .footerSoc-Twit:hover {
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
             box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
     background-image: url(../../assets/images/m-icon-orange-twitter.svg);
@@ -3071,7 +2924,7 @@ body {
     background-position: center;
   }
   .footerSoc-Skype {
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
     background-image: url(../../assets/images/m-icon-orange-skype.svg);
@@ -3084,7 +2937,7 @@ body {
     transition: background 0.3s, box-shadow 0.3s, background-image 0.3s, -webkit-box-shadow 0.3s;
   }
   .footerSoc-Skype:hover {
-    background: #FFFFFF;
+    background: white;
     -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
             box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
     background-image: url(../../assets/images/m-icon-orange-skype.svg);

@@ -17,28 +17,45 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
-// variables
-$PadVW: 9.38vw;
-
 
 // Common style
 body {
-  background-color: rgba(255, 255, 255, 1);
-  color: #373737;
+  background-color: $white;
+  color: $darkgray;
   position: relative;
   width: 100%;
   height: auto;
+  //font
+  font-family: $font-main;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: $lightgrey;
+}
+
+// Title-h3
+.Title3{
   font-family: "Work Sans";
   font-style: normal;
+  font-weight: 600;
+  font-size: 39.06px;
+  line-height: 123.6%;
+  &-black{
+    color: $darkgray;
+  }
+  &-orange{
+    color: $orange;
+  }
 }
 
 // block Header
 .header {
   width: 100%;
   height: 100px;
-  background: #FFFFFF;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
-  padding: 0 $PadVW;
+  background: $white;
+  box-shadow: $shadowdark;
+  padding: 0 $PadDeskVW;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -49,7 +66,7 @@ body {
 .headerLogo{
   display: inline-block;
   margin: 0 4.03vw 0 0;
-  font-family: "Work Sans";
+  font-family: $font-main;
   font-style: normal;
   font-weight: 600;
   font-size: 39.06px;
@@ -59,29 +76,29 @@ body {
   align-items: center;
   justify-content: center;
   &-Orange {
-    color: #FF5300;
+    color: $orange;
   }
   &-Black {
-    color: #373737;
+    color: $darkgray;
   }
 }
 .headerLink{
   display: inline-block;
   margin: 0 1.67vw;
-  font-family: "Work Sans";
+  font-family: $font-main;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 123.6%;
   text-align: center;
-  color: #373737;
+  color: $darkgray;
 }
 .headerLinkStyle{
   margin: 0 0 0 auto;
   display: block;
   width: 24px;
   height: 24px;
-  background: rgba(255, 255, 255, 1);
+  background: $white;
   background-image: url(../../assets/images/m-icon-dark-sun.svg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -108,16 +125,16 @@ body {
     height: 40px;
   }
   &-Fb{
-    background: #FFFFFF;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background: $white;
+    box-shadow: $shadowdark;
     background-image: url(../../assets/images/m-icon-orange-fb.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 24px 24px;
     transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
     &:hover{
-      background: #FF5300;
-      box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+      background: $orange;
+      box-shadow: $shadoworange;
       background-image: url(../../assets/images/m-icon-white-fb.svg);
       background-repeat: no-repeat;
       background-position: center;
@@ -125,16 +142,16 @@ body {
     }
   }
   &-Inst{
-    background: #FFFFFF;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background: $white;
+    box-shadow: $shadowdark;
     background-image: url(../../assets/images/m-icon-orange-instagram.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 24px 24px;
     transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
     &:hover{
-      background: #FF5300;
-      box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+      background: $orange;
+      box-shadow: $shadoworange;
       background-image: url(../../assets/images/m-icon-white-fb.svg);
       background-repeat: no-repeat;
       background-position: center;
@@ -142,16 +159,16 @@ body {
     }
   }
   &-Twit{
-    background: #FFFFFF;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background: $white;
+    box-shadow: $shadowdark;
     background-image: url(../../assets/images/m-icon-orange-twitter.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 24px 24px;
     transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
     &:hover{
-      background: #FF5300;
-      box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+      background: $orange;
+      box-shadow: $shadoworange;
       background-image: url(../../assets/images/m-icon-white-fb.svg);
       background-repeat: no-repeat;
       background-position: center;
@@ -159,16 +176,16 @@ body {
     }
   }
   &-Skype{
-    background: #FFFFFF;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background: $white;
+    box-shadow: $shadowdark;
     background-image: url(../../assets/images/m-icon-orange-skype.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 24px 24px;
     transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
     &:hover{
-      background: #FF5300;
-      box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+      background: $orange;
+      box-shadow: $shadoworange;
       background-image: url(../../assets/images/m-icon-white-fb.svg);
       background-repeat: no-repeat;
       background-position: center;
@@ -184,15 +201,15 @@ body {
   justify-content: center;
   width: 150px;
   height: 50px;
-  background: #FF5300;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  background: $orange;
+  box-shadow: $shadowdark;
   border-radius: 5px;
-  font-family: "Work Sans";
+  font-family: $font-main;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 123.6%;
-  color: #FFFFFF;
+  color: $white;
 }
 
 // section top
@@ -200,11 +217,11 @@ body {
   position: relative;
   width: 100%;
   height: 835px;
-  padding: 100px $PadVW 0px $PadVW;
+  padding: 100px $PadDeskVW 0px $PadDeskVW;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #FFF7F4;
+  background: $peach;
   &-content{
     height: 355px;
     width: 34.4vw;
@@ -214,26 +231,18 @@ body {
     align-items: flex-start;
     justify-content: space-between;
     &-Tytle{
-      font-family: "Work Sans";
+      font-family: $font-main;
       font-style: normal;
       font-weight: bold;
       font-size: 48px;
       line-height: 123.6%;
       text-transform: capitalize;
       &-Black{
-        color: #373737;
+        color: $darkgray;
       }
       &-Orange{
-        color: #FF5300;
+        color: $orange;
       }
-    }
-    &-text{
-      font-family: "Work Sans";
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 150.6%;
-      color: #7B7B7B;
     }
   }
   &-img{
@@ -257,17 +266,11 @@ body {
   justify-content: space-between;
   width: 100%;
   height: 935px;
-  padding: 120px $PadVW;
+  padding: 120px $PadDeskVW;
   &-minititle{
     text-align: center;
     order: 1;
     width: 100%;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 150.6%;
-    color: #7B7B7B;
   }
   &-mid{
     display: flex;
@@ -293,28 +296,9 @@ body {
       align-items: flex-start;
       justify-content: space-between;
       padding: 25px 0 60px 0;
-      &-title{
-        font-family: "Work Sans";
-        font-style: normal;
-        font-weight: 600;
-        font-size: 39.06px;
-        line-height: 123.6%;
-        &-black{
-          color: #373737;
-        }
-        &-orange{
-          color: #FF5300;
-        }
-      }
       &-text {
         width: 100%;
         height: auto;
-        font-family: "Work Sans";
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 150.6%;
-        color: #7B7B7B;
       }
     }
   }
@@ -327,8 +311,8 @@ body {
     &-block{
       height: 200px;
       width: 18.75vw;
-      background: #FFFFFF;
-      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+      background: $white;
+      box-shadow: $shadowdark;
       padding: 25px;
       display: flex;
       flex-direction: column;
@@ -341,15 +325,15 @@ body {
         border-radius: 35px;
       }
       &-img1{
-        background: #FF5300;
-        box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+        background: $orange;
+        box-shadow: $shadoworange;
         background-image: url(../../assets/images/m-icon-white-file.svg);
         background-position: center;
         background-repeat: no-repeat;
         background-size: 30px 30px;
       }
       &-img2{
-        background: #7B7B7B;
+        background: $lightgrey;
         box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.4);
         background-image: url(../../assets/images/m-icon-white-code.svg);
         background-position: center;
@@ -365,7 +349,7 @@ body {
         background-size: 30px 30px;
       }
       &-img4{
-        background: #373737;
+        background: $darkgray;
         box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.4);
         background-image: url(../../assets/images/m-icon-white-link.svg);
         background-position: center;
@@ -376,13 +360,7 @@ body {
         width: 100%;
         height: auto;
         margin: 36px 0 0 0;
-        font-family: "Work Sans";
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 150.6%;
         text-align: center;
-        color: #373737;
       }
     }
   }
@@ -393,8 +371,8 @@ body {
   position: relative;
   width: 100%;
   height: 673px;
-  padding: 60px $PadVW;
-  background: #FFF7F4;
+  padding: 60px $PadDeskVW;
+  background: $peach;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -407,33 +385,6 @@ body {
     justify-content: space-around;
     &-minititle{
       width: 100%;
-      font-family: "Work Sans";
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 150.6%;
-      color: #7B7B7B;
-    }
-    &-title{
-      font-family: "Work Sans";
-      font-style: normal;
-      font-weight: 600;
-      font-size: 39.06px;
-      line-height: 123.6%;
-      &-black{
-        color: #373737;
-      }
-      &-orange{
-        color: #FF5300;
-      }
-    }
-    &-text {
-      font-family: "Work Sans";
-      font-style: normal;
-      font-weight: normal;
-      font-size: 16px;
-      line-height: 150.6%;
-      color: #7B7B7B;
     }
   }
   &-blocks{
@@ -468,27 +419,27 @@ body {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      background: #FFFFFF;
-      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+      background: $white;
+      box-shadow: $shadowdark;
       padding: 74px 40px;
       &-sum{
         margin: 0 0 18px 0;
-        font-family: "Work Sans";
+        font-family: $font-main;
         font-style: normal;
         font-weight: bold;
         font-size: 48px;
         line-height: 123.6%;
         text-transform: capitalize;
-        color: #373737;
+        color: $darkgray;
         text-align: center;
       }
       &-text{
-        font-family: "Work Sans";
+        font-family: $font-main;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
         line-height: 123.6%;
-        color: #7B7B7B;
+        color: $lightgrey;
         text-align: center;
       }
     }
@@ -503,34 +454,17 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 120px $PadVW 0 $PadVW;
+  padding: 120px $PadDeskVW 0 $PadDeskVW;
   &-minititle{
     width: 100%;
     height: auto;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 150.6%;
-    color: #7B7B7B;
     text-align: center;
   }
   &-title{
     margin: 25px 0 0 0;
     width: 450px;
     height: auto;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 39.06px;
-    line-height: 123.6%;
     text-align: center;
-    &-black{
-      color: #373737;
-    }
-    &-orange {
-      color: #FF5300;
-    }
   }
   &-blocks{
     width: 100%;
@@ -544,8 +478,8 @@ body {
       height: calc(17.36vw + 100px);
       display: flex;
       flex-direction: column;
-      background: #FFFFFF;
-      box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+      background: $white;
+      box-shadow: $shadowdark;
       &-photoblock{
         width: 18.75vw;
         height: 17.36vw;
@@ -603,7 +537,7 @@ body {
         flex-direction: column;
         justify-content: space-around;
         &-name{
-          font-family: "Work Sans";
+          font-family: $font-main;
           font-style: normal;
           font-weight: 500;
           font-size: 20px;
@@ -612,12 +546,6 @@ body {
           text-align: center;
         }
         &-description{
-          font-family: "Work Sans";
-          font-style: normal;
-          font-weight: normal;
-          font-size: 16px;
-          line-height: 150.6%;
-          color: #7B7B7B;
           text-align: center;
         }
       }
@@ -642,8 +570,8 @@ body {
   position: relative;
   width: 100%;
   height: 360px;
-  padding: 66px $PadVW 60px $PadVW;
-  background: #373737;
+  padding: 66px $PadDeskVW 60px $PadDeskVW;
+  background: $darkgray;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -660,41 +588,31 @@ body {
   width: 18.4vw;
   &-Title {
     display: flex;
-    font-family: "Work Sans";
+    font-family: $font-main;
     font-style: normal;
     font-weight: 600;
     font-size: 39.06px;
     line-height: 123.6%;
     text-align: center;
-    color: #FFFFFF;
+    color: $white;
     &-Orange {
-      color: #FF5300;
+      color: $orange;
     }
     &-White {
-      color: #FFFFFF;
+      color: $white;
     }
   }
   &-filling {
     display: block;
     width: 100%;
     height: auto;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 150.6%;
-    color: #FFFFFF;
+    color: $white;
   }
   &-Link {
     display: block;
     width: 100%;
     height: auto;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 150.6%;
-    color: #FFFFFF;
+    color: $white;
   }
 }
 
@@ -710,16 +628,16 @@ body {
     z-index: 5;
   }
   &-Fb {
-    background: #FFFFFF;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background: $white;
+    box-shadow: $shadowdark;
     background-image: url(../../assets/images/m-icon-orange-fb.svg);
     background-repeat: no-repeat;
     background-size: 24px 24px;
     background-position: center;
     transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
     &:hover{
-      background: #FF5300;
-      box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+      background: $orange;
+      box-shadow: $shadoworange;
       background-image: url(../../assets/images/m-icon-white-fb.svg);
       background-repeat: no-repeat;
       background-position: center;
@@ -727,16 +645,16 @@ body {
     }
   }
   &-Inst {
-    background: #FFFFFF;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background: $white;
+    box-shadow: $shadowdark;
     background-image: url(../../assets/images/m-icon-orange-instagram.svg);
     background-repeat: no-repeat;
     background-size: 24px 24px;
     background-position: center;
     transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
     &:hover{
-      background: #FF5300;
-      box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+      background: $orange;
+      box-shadow: $shadoworange;
       background-image: url(../../assets/images/m-icon-white-fb.svg);
       background-repeat: no-repeat;
       background-position: center;
@@ -744,16 +662,16 @@ body {
     }
   }
   &-Twit {
-    background: #FFFFFF;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background: $white;
+    box-shadow: $shadowdark;
     background-image: url(../../assets/images/m-icon-orange-twitter.svg);
     background-repeat: no-repeat;
     background-size: 24px 24px;
     background-position: center;
     transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
     &:hover{
-      background: #FF5300;
-      box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+      background: $orange;
+      box-shadow: $shadoworange;
       background-image: url(../../assets/images/m-icon-white-fb.svg);
       background-repeat: no-repeat;
       background-position: center;
@@ -761,16 +679,16 @@ body {
     }
   }
   &-Skype {
-    background: #FFFFFF;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    background: $white;
+    box-shadow: $shadowdark;
     background-image: url(../../assets/images/m-icon-orange-skype.svg);
     background-repeat: no-repeat;
     background-size: 24px 24px;
     background-position: center;
     transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
     &:hover{
-      background: #FF5300;
-      box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+      background: $orange;
+      box-shadow: $shadoworange;
       background-image: url(../../assets/images/m-icon-white-fb.svg);
       background-repeat: no-repeat;
       background-position: center;
@@ -781,26 +699,20 @@ body {
 .footerForm{
   width: 100%;
   height: 60px;
-  border: 1px solid #FF5300;
+  border: 1px solid $orange;
   box-sizing: border-box;
   display: flex;
   &-Input{
     width: 100%;
     height: 100%;
-    background: #373737;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 150.6%;
+    background: $darkgray;
     text-align: left;
     padding: 0 18px;
-    color: #7B7B7B;
   }
   &-Button{
     width: 81px;
     height: 100%;
-    background: #FF5300;
+    background: $orange;
     background-image: url(../../assets/images/m-icon-white-send.svg);
     background-repeat: no-repeat;
     background-size: 24px 24px;
@@ -813,8 +725,8 @@ body {
   position: relative;
   width: 100%;
   height: 60px;
-  padding: 0 $PadVW;
-  background: #FF5300;
+  padding: 0 $PadDeskVW;
+  background: $orange;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -822,12 +734,7 @@ body {
 
 .footerCopyright{
   position: relative;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150.6%;
-  color: #FFFFFF;
+  color: $white;
   margin: 0 0 0 40px;
   &::before{
     content: "©";
@@ -835,7 +742,7 @@ body {
     margin: 0 0px 0 -40px;
     width: 20px;
     height: 20px;
-    font-family: "Work Sans";
+    font-family: $font-main;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -845,7 +752,7 @@ body {
 .FooterArrow{
   width: 50px;
   height: 50px;
-  background: #FF5300;
+  background: $orange;
   background-image: url(../../assets/images/m-arrow-up-white.svg);
   background-repeat: no-repeat;
   background-size: 70% 70%;
