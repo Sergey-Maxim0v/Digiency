@@ -815,22 +815,23 @@ body {
   }
 }
 
-// section feedback
+// section blog
 .h-blog{
   position: relative;
   width: 100%;
-  height: 640px;
-  padding: 60px $PadDeskVW;
+  height: auto;
+  padding: 120px $PadDeskVW 0 $PadDeskVW;
   background-color: $white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   &-title{
+    margin: 60px 0 0 0;
     width: 100%;
     text-align: center;
   }
   &-blocks{
+    margin: 60px 0 0 0;
     padding: 0 0 0 0px;
     height: 294px;
     width: 100%;
@@ -843,26 +844,32 @@ body {
       background: $white;
       box-shadow: $shadowdark;
       display: flex;
-      justify-content: space-between;
-      padding: 25px 25px 38px 25px;
+      flex-wrap: wrap;
+      flex-direction: row;
+      padding: 25px 1.7vw 38px 1.7vw;
       &-left{
-        width: 24.72vw;
-        height: 100%;
+        width: 24vw;
+        height: 164px;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: flex-start;
       }
       &-right{
         display: flex;
         align-items: flex-start;
-        width: 11.39vw;
-        height: 100px;
+        width: 11.3vw;
+        height: 164px;
         &-picture{
           width: 11.39vw;
           height: 11.39vw;
           border-radius: 82px;
         }
+      }
+      &-bot{
+        width: 100%;
+        height: 80px;
+        padding: 0 0vw 0 0;
       }
       &-title{
         font-family: $font-main;
@@ -873,6 +880,7 @@ body {
         color: $orange;
       }
       &-text{
+        margin: 18px 0 0 0;
         font-family: $font-main;
         font-style: normal;
         font-weight: 500;
@@ -880,7 +888,7 @@ body {
         line-height: 123.6%;
         color: $darkgray;
       }
-      &-employee{
+      &-bot{
         width: 100%;
         height: 80px;
         display: flex;
@@ -954,6 +962,7 @@ body {
     }
   }
   &-buttons{
+    margin: 60px 0 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
