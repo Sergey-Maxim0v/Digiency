@@ -898,7 +898,54 @@ body {
           filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
 }
 .h-work-pictures-lefttop-inside {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 83, 0, 0.9)), to(rgba(255, 83, 0, 0.9)));
+  background: linear-gradient(0deg, rgba(255, 83, 0, 0.9), rgba(255, 83, 0, 0.9));
+  padding: 45px 20px;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+}
+.h-work-pictures-lefttop-inside:hover {
+  opacity: 1;
+}
+.h-work-pictures-lefttop-inside-icon {
+  width: 40px;
+  height: 40px;
+  background-image: url(../../assets/images/m-icon-dark-search.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.h-work-pictures-lefttop-inside-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 123.6%;
+  color: white;
+}
+.h-work-pictures-lefttop-inside-text {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: white;
 }
 .h-work-pictures-leftbot {
   width: 25.69vw;
@@ -1087,6 +1134,224 @@ body {
   background-color: #373737;
 }
 .h-feedback-buttons-right {
+  margin: 0 2px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 8px;
+  background-color: #7B7B7B;
+}
+
+.h-blog {
+  position: relative;
+  width: 100%;
+  height: 640px;
+  padding: 60px 9.38vw;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.h-blog-title {
+  width: 100%;
+  text-align: center;
+}
+.h-blog-blocks {
+  padding: 0 0 0 0px;
+  height: 294px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.h-blog-blocks-block {
+  position: relative;
+  height: 294px;
+  width: 39.3vw;
+  background: white;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25px 25px 38px 25px;
+}
+.h-blog-blocks-block-left {
+  width: 24.72vw;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.h-blog-blocks-block-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 11.39vw;
+  height: 100px;
+}
+.h-blog-blocks-block-right-picture {
+  width: 11.39vw;
+  height: 11.39vw;
+  border-radius: 82px;
+}
+.h-blog-blocks-block-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #FF5300;
+}
+.h-blog-blocks-block-text {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 123.6%;
+  color: #373737;
+}
+.h-blog-blocks-block-employee {
+  width: 100%;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.h-blog-blocks-block-employee-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+}
+.h-blog-blocks-block-employee-name {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 123.6%;
+  color: #373737;
+}
+.h-blog-blocks-block-employee-right {
+  width: 17.36vw;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 0 0 10px;
+}
+.h-blog-blocks-block-employee-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 3px;
+  background: #373737;
+}
+.h-blog-blocks-block-employee-sign {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #7B7B7B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.h-blog-blocks-block1-picture {
+  background-image: url(../../assets/images/m-post-icon-1@2x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h-blog-blocks-block1-photo {
+  background-image: url(../../assets/images/m-user-cristofer@2x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h-blog-blocks-block2-picture {
+  background-image: url(../../assets/images/m-post-icon-2@2x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h-blog-blocks-block2-photo {
+  background-image: url(../../assets/images/m-user-heyli@2x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h-blog-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: auto;
+}
+.h-blog-buttons-left {
+  margin: 0 2px;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 8px;
+  background-color: #FF5300;
+}
+.h-blog-buttons-mid {
+  margin: 0 2px;
+  display: block;
+  width: 49px;
+  height: 15px;
+  border-radius: 8px;
+  background-color: #373737;
+}
+.h-blog-buttons-right {
   margin: 0 2px;
   display: block;
   width: 15px;
@@ -2120,6 +2385,12 @@ body {
     background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 83, 0, 0.9)), to(rgba(255, 83, 0, 0.9)));
     background: linear-gradient(0deg, rgba(255, 83, 0, 0.9), rgba(255, 83, 0, 0.9));
     padding: 45px 20px;
+    opacity: 1;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+  }
+  .h-work-pictures-lefttop-inside:hover {
+    opacity: 1;
   }
   .h-work-pictures-lefttop-inside-icon {
     width: 40px;

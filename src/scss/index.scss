@@ -610,7 +610,43 @@ body {
       background-size: cover;
       filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
       &-inside{
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(0deg, rgba(255, 83, 0, 0.9), rgba(255, 83, 0, 0.9));
+        padding: 45px 20px;
+        opacity: 0;
+        transition: opacity 0.5s;
+        &:hover{
+          opacity: 1;
+        }
+        &-icon{
+            width: 40px;
+            height: 40px;
+            background-image: url(../../assets/images/m-icon-dark-search.svg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        &-title{
+            font-family: $font-main;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 123.6%;
+            color: $white;
+        }
+        &-text{
+            font-family: $font-main;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 150.6%;
+            color: $white;
+        }
       }
     }
     &-leftbot{
@@ -778,6 +814,178 @@ body {
     }
   }
 }
+
+// section feedback
+.h-blog{
+  position: relative;
+  width: 100%;
+  height: 640px;
+  padding: 60px $PadDeskVW;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  &-title{
+    width: 100%;
+    text-align: center;
+  }
+  &-blocks{
+    padding: 0 0 0 0px;
+    height: 294px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    &-block{
+      position: relative;
+      height: 294px;
+      width: 39.3vw;
+      background: $white;
+      box-shadow: $shadowdark;
+      display: flex;
+      justify-content: space-between;
+      padding: 25px 25px 38px 25px;
+      &-left{
+        width: 24.72vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+      &-right{
+        display: flex;
+        align-items: flex-start;
+        width: 11.39vw;
+        height: 100px;
+        &-picture{
+          width: 11.39vw;
+          height: 11.39vw;
+          border-radius: 82px;
+        }
+      }
+      &-title{
+        font-family: $font-main;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 150.6%;
+        color: $orange;
+      }
+      &-text{
+        font-family: $font-main;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 123.6%;
+        color: $darkgray;
+      }
+      &-employee{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        &-photo{
+          width: 80px;
+          height: 80px;
+          border-radius: 40px;
+        }
+        &-name{
+          font-family: $font-main;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 123.6%;
+          color: $darkgray;
+        }
+        &-right{
+          width: 17.36vw;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 0 0 0 10px;
+        }
+        &-dot{
+          width: 5px;
+          height: 5px;
+          border-radius: 3px;
+          background: $darkgray;
+        }
+        &-sign {
+          font-family: $font-main;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 150.6%;
+          color: $lightgrey;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+      }
+    }
+    &-block1 {
+      &-picture{
+        background-image: url(../../assets/images/m-post-icon-1@2x.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      &-photo{
+        background-image: url(../../assets/images/m-user-cristofer@2x.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+    &-block2 {
+      &-picture{
+        background-image: url(../../assets/images/m-post-icon-2@2x.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      &-photo{
+        background-image: url(../../assets/images/m-user-heyli@2x.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+  &-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    &-left{
+      margin: 0 2px;
+      display: block;
+      width: 15px;
+      height: 15px;
+      border-radius: 8px;
+      background-color: $orange;
+    }
+    &-mid{
+      margin: 0 2px;
+      display: block;
+      width: 49px;
+      height: 15px;
+      border-radius: 8px;
+      background-color: $darkgray;
+    }
+    &-right{
+      margin: 0 2px;
+      display: block;
+      width: 15px;
+      height: 15px;
+      border-radius: 8px;
+      background-color: $lightgrey;
+    }
+  }
+}
+
 
 // block footer
 .footer{
