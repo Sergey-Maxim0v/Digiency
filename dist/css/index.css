@@ -1264,7 +1264,7 @@ body {
   color: #373737;
 }
 .h-blog-blocks-block-bot-right {
-  width: 17.36vw;
+  width: 60%;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2741,7 +2741,7 @@ body {
     color: #373737;
   }
   .h-blog-blocks-block-bot-right {
-    width: auto;
+    width: 100%;
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2756,17 +2756,19 @@ body {
     padding: 0 0 0 10px;
   }
   .h-blog-blocks-block-bot-dot {
+    margin: 0 5px;
     width: 5px;
     height: 5px;
     border-radius: 3px;
     background: #373737;
   }
   .h-blog-blocks-block-bot-sign {
+    width: 100%;
     font-family: "Work Sans";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 150.6%;
+    line-height: 100%;
     color: #7B7B7B;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2778,26 +2780,29 @@ body {
         -ms-flex-align: center;
             align-items: center;
   }
+  .h-blog-blocks-block-bot-sign p {
+    width: 40%;
+  }
   .h-blog-blocks-block1-picture {
-    background-image: url(../../assets/images/m-post-icon-1@2x.png);
+    background-image: url(../../assets/images/m-post-icon-1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .h-blog-blocks-block1-photo {
-    background-image: url(../../assets/images/m-user-cristofer@2x.png);
+    background-image: url(../../assets/images/m-user-cristofer.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .h-blog-blocks-block2-picture {
-    background-image: url(../../assets/images/m-post-icon-2@2x.png);
+    background-image: url(../../assets/images/m-post-icon-2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .h-blog-blocks-block2-photo {
-    background-image: url(../../assets/images/m-user-heyli@2x.png);
+    background-image: url(../../assets/images/m-user-heyli.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4106,6 +4111,234 @@ body {
     background-color: #373737;
   }
   .h-feedback-buttons-right {
+    margin: 0 2px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    background-color: #7B7B7B;
+  }
+
+  .h-blog {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 16px 0 16px;
+    background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .h-blog-title {
+    margin: 18px 0 0 0;
+    width: 100%;
+    text-align: center;
+  }
+  .h-blog-blocks {
+    margin: 18px 0 0 0;
+    padding: 0 0 0 0px;
+    height: 260px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .h-blog-blocks-block {
+    position: relative;
+    height: 220px;
+    width: 78.93vw;
+    background: white;
+    -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 2.34vw;
+  }
+  .h-blog-blocks-block-left {
+    width: 45.33vw;
+    height: 164px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .h-blog-blocks-block-right {
+    padding: 12px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 21.33vw;
+    height: 21.33vw;
+  }
+  .h-blog-blocks-block-right-picture {
+    width: 21.33vw;
+    height: 21.33vw;
+    border-radius: 12vw;
+  }
+  .h-blog-blocks-block-title {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.8px;
+    line-height: 123.6%;
+    color: #FF5300;
+  }
+  .h-blog-blocks-block-text {
+    margin: 18px 0 0 0;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: #373737;
+    overflow: hidden;
+  }
+  .h-blog-blocks-block-bot {
+    width: 100%;
+    height: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+  .h-blog-blocks-block-bot-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+  }
+  .h-blog-blocks-block-bot-name {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: #373737;
+  }
+  .h-blog-blocks-block-bot-right {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0 0 0 10px;
+  }
+  .h-blog-blocks-block-bot-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 3px;
+    background: #373737;
+  }
+  .h-blog-blocks-block-bot-sign {
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.8px;
+    line-height: 123.6%;
+    color: #7B7B7B;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .h-blog-blocks-block1-picture {
+    background-image: url(../../assets/images/m-post-icon-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .h-blog-blocks-block1-photo {
+    background-image: url(../../assets/images/m-user-cristofer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .h-blog-blocks-block2 {
+    display: none;
+  }
+  .h-blog-blocks-block2-picture {
+    background-image: url(../../assets/images/m-post-icon-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .h-blog-blocks-block2-photo {
+    background-image: url(../../assets/images/m-user-heyli.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .h-blog-buttons {
+    margin: 0px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+  .h-blog-buttons-left {
+    margin: 0 2px;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    background-color: #FF5300;
+  }
+  .h-blog-buttons-mid {
+    margin: 0 2px;
+    display: block;
+    width: 49px;
+    height: 15px;
+    border-radius: 8px;
+    background-color: #373737;
+  }
+  .h-blog-buttons-right {
     margin: 0 2px;
     display: block;
     width: 15px;
