@@ -2237,6 +2237,190 @@
         }
     }    
 
+    // section Contact Us
+    .h-contact{
+        width: 100%;
+        height: auto;
+        padding: 50px $PadPhonkVW 0 $PadPhonkVW;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-title{
+            margin: 18px 0 0 0;
+            text-align: center;
+        }
+        &-blocks{
+            margin: 18px 0 0 0;
+            height: auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            &-block{
+                margin: 12px 0;
+                height: 173px;
+                width: 100%;
+                padding: 18px 18px;
+                background: $white;
+                box-shadow: $shadowdark;
+                &-top{
+                    margin: 0 0 10px 0;
+                    height: 75px;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    &-img{
+                        width: 75px;
+                        height: 75px;
+                        border-radius: 38px;
+                        background: $orange;
+                        box-shadow: $shadoworange;
+                    }
+                    &-right{
+                        margin: 0 0 0 18px;
+                        width: 60%;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                    }
+                    &-title{
+                        font-family: $font-main;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 25px;
+                        line-height: 123.6%;
+                        color: $orange;
+                    }
+                    &-action{
+                        font-family: $font-main;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 31.25px;
+                        line-height: 123.6%;
+                        color: $darkgray;
+                    }
+                }
+                &-contact{
+                    margin: 5px 0;
+                    font-family: $font-main;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 123.6%;
+                    color: $lightgrey;
+                    & span{
+                        display: inline-block;
+                        margin: 0 0 0 0px;
+                        color: $orange;
+                        font-size: 16px;
+                        line-height: 123.6%;
+                    }
+                }
+            }
+            &-mail-img{
+                background-image: url(../../assets/images/m-icon-white-letter.svg);
+                background-size: 36px 36px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            &-call-img{
+                background-image: url(../../assets/images/m-icon-white-call.svg);
+                background-size: 36px 36px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+            &-visit-img{
+                background-image: url(../../assets/images/m-icon-white-location.svg);
+                background-size: 36px 36px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+        &-send{
+        margin: 60px 0 0 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+            &-picture{
+                width: 100%;
+                height: 170px;
+                background-image: url(../../assets/images/m-people-social.svg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            &-form{
+                margin: 50px 0 0 0;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                font-family: $font-main;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 150.6%;
+                color: $lightgrey;
+                &-title{
+                    width: 180px;
+                    font-family: $font-main;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 25px;
+                    line-height: 123.6%;
+                    text-align: center;
+                    &-black{
+                        color: $darkgray;
+                    }
+                    &-orange{
+                        color: $orange;
+                    }
+                }
+                &-input{
+                    margin: 9px 0;
+                    height: 50px;
+                    width: 100%;
+                    padding: 0 1.25vw;
+                    background: $white;
+                    box-shadow: $shadowdark;
+                }
+                &-mail{
+                    margin: 9px 0;
+                    padding: 18px 1.25vw;
+                    height: 109px;
+                    width: 100%;
+                    background: $white;
+                    box-shadow: $shadowdark;
+                    resize: none;
+                }
+                &-button{
+                    align-self: flex-start;
+                    margin: 9px 0;
+                    height: 50px;
+                    width: 190px;
+                    background: $orange;
+                    box-shadow: $shadoworange;
+                    border-radius: 5px;
+                    font-family: $font-main;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 123.6%;
+                    color: $white;
+                }
+            }
+        }
+    }
+
+
     // block footer
     .footerTop{
         position: relative;
