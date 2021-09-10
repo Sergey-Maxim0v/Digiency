@@ -1594,6 +1594,50 @@ body {
   background-size: cover;
 }
 
+.h-medals {
+  margin: 125px 0;
+  width: 100%;
+  height: auto;
+  padding: 0 9.38vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.h-medals-medal {
+  width: 14.79vw;
+  height: 11.6vw;
+}
+.h-medals-glutein {
+  background-image: url(../../assets/images/m-medal-gluten.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.h-medals-butchery {
+  background-image: url(../../assets/images/m-medal-butchery.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.h-medals-organic {
+  background-image: url(../../assets/images/m-medal-organic.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.h-medals-restayrant {
+  background-image: url(../../assets/images/m-medal-restaurant.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
 .footer {
   position: relative;
   width: 100%;
@@ -3306,6 +3350,50 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .h-medals {
+    margin: 120px 0;
+    width: 100%;
+    height: auto;
+    padding: 0 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .h-medals-medal {
+    width: 17.97vw;
+    height: 14.19vw;
+  }
+  .h-medals-glutein {
+    background-image: url(../../assets/images/m-medal-gluten.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .h-medals-butchery {
+    background-image: url(../../assets/images/m-medal-butchery.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .h-medals-organic {
+    background-image: url(../../assets/images/m-medal-organic.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .h-medals-restayrant {
+    background-image: url(../../assets/images/m-medal-restaurant.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
 
   .footerTop {
@@ -5055,6 +5143,50 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .h-medals {
+    margin: 50px 0;
+    width: 100%;
+    height: auto;
+    padding: 0 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .h-medals-medal {
+    width: 17.87vw;
+    height: 14.13vw;
+  }
+  .h-medals-glutein {
+    background-image: url(../../assets/images/m-medal-gluten.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .h-medals-butchery {
+    background-image: url(../../assets/images/m-medal-butchery.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .h-medals-organic {
+    background-image: url(../../assets/images/m-medal-organic.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .h-medals-restayrant {
+    background-image: url(../../assets/images/m-medal-restaurant.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
 
   .footerTop {

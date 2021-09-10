@@ -1179,6 +1179,45 @@ body {
   }
 }
 
+// section medals
+.h-medals{
+  margin: 125px 0;
+  width: 100%;
+  height: auto;
+  padding: 0 $PadDeskVW;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &-medal{
+    width: 14.79vw;
+    height: 11.6vw;
+  }
+  &-glutein{
+    background-image: url(../../assets/images/m-medal-gluten.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  &-butchery{
+    background-image: url(../../assets/images/m-medal-butchery.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  &-organic{
+    background-image: url(../../assets/images/m-medal-organic.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  &-restayrant{
+    background-image: url(../../assets/images/m-medal-restaurant.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+}
+
 // block footer
 .footer{
   position: relative;

@@ -1123,6 +1123,45 @@
         }
     }
     
+    // section medals
+    .h-medals{
+        margin: 120px 0;
+        width: 100%;
+        height: auto;
+        padding: 0 $PadTablkVW;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-medal{
+            width: 17.97vw;
+            height: 14.19vw;
+        }
+        &-glutein{
+            background-image: url(../../assets/images/m-medal-gluten.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        &-butchery{
+            background-image: url(../../assets/images/m-medal-butchery.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        &-organic{
+            background-image: url(../../assets/images/m-medal-organic.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        &-restayrant{
+            background-image: url(../../assets/images/m-medal-restaurant.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+
     // block footer top
     .footerTop{
         position: relative;
@@ -2452,6 +2491,45 @@
             background-size: cover;
         }
     }    
+
+    // section medals
+    .h-medals{
+        margin: 50px 0;
+        width: 100%;
+        height: auto;
+        padding: 0 $PadPhonkVW;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-medal{
+            width: 17.87vw;
+            height: 14.13vw;
+        }
+        &-glutein{
+            background-image: url(../../assets/images/m-medal-gluten.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        &-butchery{
+            background-image: url(../../assets/images/m-medal-butchery.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        &-organic{
+            background-image: url(../../assets/images/m-medal-organic.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        &-restayrant{
+            background-image: url(../../assets/images/m-medal-restaurant.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+    }
 
     // block footer
     .footerTop{
