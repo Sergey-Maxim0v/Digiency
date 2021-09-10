@@ -749,6 +749,184 @@
         }
     }
 
+    // section blog
+    .h-blog{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 120px $PadTablkVW 0 $PadTablkVW;
+        background-color: $white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-title{
+            margin: 18px 0 0 0;
+            width: 100%;
+            text-align: center;
+        }
+        &-blocks{
+            margin: 25px 0 0 0;
+            padding: 0 0 0 0px;
+            height: 260px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            &-block{
+                position: relative;
+                height: 260px;
+                width: 43.23vw;
+                background: $white;
+                box-shadow: $shadowdark;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                padding: 2.34vw;
+                &-left{
+                    width: 28vw;
+                    height: 164px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                }
+                &-right{
+                    padding: 12px 0 0 0;
+                    display: flex;
+                    align-items: flex-start;
+                    width: 10.41vw;
+                    height: 10.41vw;
+                    &-picture{
+                        width: 10.41vw;
+                        height: 10.41vw;
+                        border-radius: 82px;
+                    }
+                }
+                &-title{
+                    font-family: $font-main;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 150.6%;
+                    color: $orange;
+                }
+                &-text{
+                    margin: 18px 0 0 0;
+                    font-family: $font-main;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 123.6%;
+                    color: $darkgray;
+                    overflow: hidden;
+                }
+                &-bot{
+                    width: 100%;
+                    height: 60px;
+                    display: flex;
+                    position: relative;
+                    &-photo{
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 30px;
+                    }
+                    &-name{
+                        font-family: $font-main;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 123.6%;
+                        color: $darkgray;
+                    }
+                    &-right{
+                        width: auto;
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        padding: 0 0 0 10px;
+                    }
+                    &-dot{
+                        width: 5px;
+                        height: 5px;
+                        border-radius: 3px;
+                        background: $darkgray;
+                    }
+                    &-sign {
+                        font-family: $font-main;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 150.6%;
+                        color: $lightgrey;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                }
+            }
+            &-block1 {
+                &-picture{
+                    background-image: url(../../assets/images/m-post-icon-1@2x.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                &-photo{
+                    background-image: url(../../assets/images/m-user-cristofer@2x.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+            &-block2 {
+                &-picture{
+                    background-image: url(../../assets/images/m-post-icon-2@2x.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                &-photo{
+                    background-image: url(../../assets/images/m-user-heyli@2x.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+        }
+        &-buttons{
+            margin: 60px 0 0 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+            &-left{
+                margin: 0 2px;
+                display: block;
+                width: 15px;
+                height: 15px;
+                border-radius: 8px;
+                background-color: $orange;
+            }
+            &-mid{
+                margin: 0 2px;
+                display: block;
+                width: 49px;
+                height: 15px;
+                border-radius: 8px;
+                background-color: $darkgray;
+            }
+            &-right{
+                margin: 0 2px;
+                display: block;
+                width: 15px;
+                height: 15px;
+                border-radius: 8px;
+                background-color: $lightgrey;
+            }
+        }
+    }
+  
 
     
     
