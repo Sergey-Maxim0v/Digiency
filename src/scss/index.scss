@@ -108,6 +108,213 @@ body {
   display: none;
 }
 
+// block footer
+.footer{
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+// block footer top
+.footerTop{
+  position: relative;
+  width: 100%;
+  height: 360px;
+  padding: 66px $PadDeskVW 60px $PadDeskVW;
+  background: $darkgray;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.footerBlocks{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 235px;
+  width: 18.4vw;
+  &-Title {
+    display: flex;
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 39.06px;
+    line-height: 123.6%;
+    text-align: center;
+    color: $white;
+    &-Orange {
+      color: $orange;
+    }
+    &-White {
+      color: $white;
+    }
+  }
+  &-filling {
+    display: block;
+    width: 100%;
+    height: auto;
+    color: $white;
+  }
+  &-Link {
+    display: block;
+    width: 100%;
+    height: auto;
+    color: $white;
+  }
+}
+
+.footerSoc{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  &-Link {
+    display: block;
+    width: 40px;
+    height: 40px;
+    z-index: 5;
+  }
+  &-Fb {
+    background: $white;
+    box-shadow: $shadowdark;
+    background-image: url(../../assets/images/m-icon-orange-fb.svg);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    &:hover{
+      background: $orange;
+      box-shadow: $shadoworange;
+      background-image: url(../../assets/images/m-icon-white-fb.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 24px 24px;
+    }
+  }
+  &-Inst {
+    background: $white;
+    box-shadow: $shadowdark;
+    background-image: url(../../assets/images/m-icon-orange-instagram.svg);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    &:hover{
+      background: $orange;
+      box-shadow: $shadoworange;
+      background-image: url(../../assets/images/m-icon-white-fb.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 24px 24px;
+    }
+  }
+  &-Twit {
+    background: $white;
+    box-shadow: $shadowdark;
+    background-image: url(../../assets/images/m-icon-orange-twitter.svg);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    &:hover{
+      background: $orange;
+      box-shadow: $shadoworange;
+      background-image: url(../../assets/images/m-icon-white-fb.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 24px 24px;
+    }
+  }
+  &-Skype {
+    background: $white;
+    box-shadow: $shadowdark;
+    background-image: url(../../assets/images/m-icon-orange-skype.svg);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+    &:hover{
+      background: $orange;
+      box-shadow: $shadoworange;
+      background-image: url(../../assets/images/m-icon-white-fb.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 24px 24px;
+    }
+  }
+}
+.footerForm{
+  width: 100%;
+  height: 60px;
+  border: 1px solid $orange;
+  box-sizing: border-box;
+  display: flex;
+  &-Input{
+    width: 100%;
+    height: 100%;
+    background: $darkgray;
+    text-align: left;
+    padding: 0 18px;
+  }
+  &-Button{
+    width: 81px;
+    height: 100%;
+    background: $orange;
+    background-image: url(../../assets/images/m-icon-white-send.svg);
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    background-position: center;
+  }
+}
+
+// block footer bot
+.footerBot{
+  position: relative;
+  width: 100%;
+  height: 60px;
+  padding: 0 $PadDeskVW;
+  background: $orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footerCopyright{
+  position: relative;
+  color: $white;
+  margin: 0 0 0 40px;
+  &::before{
+    content: "©";
+    position: absolute;
+    margin: 0 0px 0 -40px;
+    width: 20px;
+    height: 20px;
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+  }
+}
+
+.FooterArrow{
+  width: 50px;
+  height: 50px;
+  background: $orange;
+  background-image: url(../../assets/images/m-arrow-up-white.svg);
+  background-repeat: no-repeat;
+  background-size: 70% 70%;
+  background-position: center;
+}
+
+//___________________________________________
+
+// PAGE HOME
+
 //Right Soc-slinks
 .RightSoclinks{
   z-index: 5;
@@ -1218,207 +1425,40 @@ body {
   }
 }
 
-// block footer
-.footer{
-  position: relative;
+//_______________________________________________
+
+//PAGE BLOG
+
+// section page-Title
+.b-pagetitle{
   width: 100%;
-  height: auto;
+  height: 416px;
+  background-color: $peach;
+  padding: 100px $PadDeskVW 0px $PadDeskVW;
   display: flex;
   flex-direction: column;
-}
-
-// block footer top
-.footerTop{
-  position: relative;
-  width: 100%;
-  height: 360px;
-  padding: 66px $PadDeskVW 60px $PadDeskVW;
-  background: $darkgray;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-}
-
-.footerBlocks{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  height: 235px;
-  width: 18.4vw;
-  &-Title {
-    display: flex;
-    font-family: $font-main;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 39.06px;
-    line-height: 123.6%;
-    text-align: center;
-    color: $white;
-    &-Orange {
-      color: $orange;
-    }
-    &-White {
-      color: $white;
-    }
-  }
-  &-filling {
-    display: block;
-    width: 100%;
-    height: auto;
-    color: $white;
-  }
-  &-Link {
-    display: block;
-    width: 100%;
-    height: auto;
-    color: $white;
-  }
-}
-
-.footerSoc{
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: space-between;
-  &-Link {
-    display: block;
-    width: 40px;
-    height: 40px;
-    z-index: 5;
-  }
-  &-Fb {
-    background: $white;
-    box-shadow: $shadowdark;
-    background-image: url(../../assets/images/m-icon-orange-fb.svg);
-    background-repeat: no-repeat;
-    background-size: 24px 24px;
-    background-position: center;
-    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
-    &:hover{
-      background: $orange;
-      box-shadow: $shadoworange;
-      background-image: url(../../assets/images/m-icon-white-fb.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 24px 24px;
-    }
-  }
-  &-Inst {
-    background: $white;
-    box-shadow: $shadowdark;
-    background-image: url(../../assets/images/m-icon-orange-instagram.svg);
-    background-repeat: no-repeat;
-    background-size: 24px 24px;
-    background-position: center;
-    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
-    &:hover{
-      background: $orange;
-      box-shadow: $shadoworange;
-      background-image: url(../../assets/images/m-icon-white-fb.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 24px 24px;
-    }
-  }
-  &-Twit {
-    background: $white;
-    box-shadow: $shadowdark;
-    background-image: url(../../assets/images/m-icon-orange-twitter.svg);
-    background-repeat: no-repeat;
-    background-size: 24px 24px;
-    background-position: center;
-    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
-    &:hover{
-      background: $orange;
-      box-shadow: $shadoworange;
-      background-image: url(../../assets/images/m-icon-white-fb.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 24px 24px;
-    }
-  }
-  &-Skype {
-    background: $white;
-    box-shadow: $shadowdark;
-    background-image: url(../../assets/images/m-icon-orange-skype.svg);
-    background-repeat: no-repeat;
-    background-size: 24px 24px;
-    background-position: center;
-    transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
-    &:hover{
-      background: $orange;
-      box-shadow: $shadoworange;
-      background-image: url(../../assets/images/m-icon-white-fb.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 24px 24px;
-    }
-  }
-}
-.footerForm{
-  width: 100%;
-  height: 60px;
-  border: 1px solid $orange;
-  box-sizing: border-box;
-  display: flex;
-  &-Input{
-    width: 100%;
-    height: 100%;
-    background: $darkgray;
-    text-align: left;
-    padding: 0 18px;
-  }
-  &-Button{
-    width: 81px;
-    height: 100%;
-    background: $orange;
-    background-image: url(../../assets/images/m-icon-white-send.svg);
-    background-repeat: no-repeat;
-    background-size: 24px 24px;
-    background-position: center;
-  }
-}
-
-// block footer bot
-.footerBot{
-  position: relative;
-  width: 100%;
-  height: 60px;
-  padding: 0 $PadDeskVW;
-  background: $orange;
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-
-.footerCopyright{
+  justify-content: center;
   position: relative;
-  color: $white;
-  margin: 0 0 0 40px;
-  &::before{
-    content: "©";
-    position: absolute;
-    margin: 0 0px 0 -40px;
-    width: 20px;
-    height: 20px;
+  &-title{
     font-family: $font-main;
     font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: $darkgray;
+    text-align: center;
+  }
+  &-minititle{
+    margin: 18px 0 0 0;
+    text-align: center;
   }
 }
 
-.FooterArrow{
-  width: 50px;
-  height: 50px;
-  background: $orange;
-  background-image: url(../../assets/images/m-arrow-up-white.svg);
-  background-repeat: no-repeat;
-  background-size: 70% 70%;
-  background-position: center;
-}
+
+
+
+//____________________________________________
 
 @import './media';
