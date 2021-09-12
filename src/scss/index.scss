@@ -1457,7 +1457,189 @@ body {
 }
 
 
+// 
+.b-content{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 120px $PadDeskVW;
+  position: relative;
+}
 
+// section posts
+.b-posts{
+  height: auto;
+  width: 53.47vw;
+}
+
+
+// section right menu
+.b-rightmenu{
+  position: sticky;
+  top: 107px;
+  height: auto;
+  width: 25.69vw;
+  &-title{
+    margin: 0px 0 30px 0;
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    color: $darkgray;
+  }
+  &-blocks{
+    margin: 20px 0;
+    width: 100%;
+    height: auto;
+    padding: 40px 1.7vw 40px 1.25vw;
+    background: $white;
+    box-shadow: $shadowdark;
+  }
+}
+.b-search {
+  margin: 0 0 20px 0;
+  height: 60px;
+  padding: 0 0vw;
+  display: flex;
+  justify-content: space-between;
+  &-npt {
+    height: 100%;
+    width: 85%;
+    padding: 0 2.08vw;
+  }
+  &-btn {
+    height: 100%;
+    width: 15%;
+    background-color: $white;
+    background-image: url(../../assets/images/m-icon-dark-search.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+  }
+}
+.b-letests{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  &-posts{
+    width: auto;
+    height: auto;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 77px;
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    color: $darkgray;
+    position: relative;
+    &::before{
+      content: "";
+      display: block;
+      position: absolute;
+      left: -77px;
+      width: 60px;
+      height: 60px;
+      border-radius: 30px;
+    }
+  }
+  &-post1::before{
+    background-image: url(../../assets/images/m-latest-post-1@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &-post2::before{
+    background-image: url(../../assets/images/m-latest-post-2@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &-post3::before{
+    background-image: url(../../assets/images/m-latest-post-3@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &-post4::before{
+    background-image: url(../../assets/images/m-latest-post-4@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &-post5::before{
+    background-image: url(../../assets/images/m-latest-post-5@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.b-categories{
+  margin: 20px 0;
+  width: 100%;
+  height: auto;
+  padding: 40px 24px 40px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: $white;
+  box-shadow: $shadowdark;
+  &-categorie{
+    margin: 0 0 15px 0;
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    color: $lightgrey;
+    &-text{
+      font-family: $font-main;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 123.6%;
+      display: flex;
+      align-items: center;
+    }
+    &-number{
+      width: 30px;
+      height: 30px;
+      border: 1px solid $lightgrey;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+.b-tags{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  &-link{
+    display: flex;
+    margin: 18px;
+    align-items: center;
+    padding: 0 12px;
+    height: 31px;
+    width: auto;
+    background-color: $peach;
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150.6%;
+    color: $lightgrey;
+  }
+}
 
 //____________________________________________
 
