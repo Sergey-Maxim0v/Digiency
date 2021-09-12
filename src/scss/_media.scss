@@ -62,6 +62,199 @@
         background-position: center;
     }
 
+    // block footer top
+    .footerTop{
+            position: relative;
+            width: 100%;
+            height: 291px;
+            padding: 60px 5.2vw;
+            background: $darkgray;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+    }
+    .footerBlocks{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            height: 180px;
+            width: 20.18vw;
+            &-Title {
+                display: flex;
+                font-family: $font-main;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 25px;
+                line-height: 123.6%;
+                color: $white;
+                &-Orange {
+                    font-family: $font-main;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 25px;
+                    line-height: 123.6%;
+                    text-align: center;
+                    color: $orange;
+                }
+                &-White {
+                    font-family: $font-main;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 25px;
+                    line-height: 123.6%;
+                    text-align: center;
+                    color: $white;
+                }
+            }
+            &-filling {
+              display: block;
+              width: 100%;
+              height: auto;
+              color: $white;
+            }
+            &-Link {
+              display: block;
+              width: 100%;
+              height: auto;
+              color: $white;
+            }
+    }
+    .footer-Text{
+            width: 100%;
+            height: 75px;
+            overflow: hidden;
+    }
+    .footerSoc{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            &-Link {
+                display: block;
+                width: 30px;
+                height: 30px;
+                z-index: 5;
+            }
+            &-Fb {
+                background: $white;
+                background-image: url(../../assets/images/m-icon-orange-fb.svg);
+                background-repeat: no-repeat;
+                background-size: 18px 18px;
+                background-position: center;
+                transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+                &:hover{
+                    background: $white;
+                    box-shadow: $shadowdark;
+                    background-image: url(../../assets/images/m-icon-orange-fb.svg);
+                    background-repeat: no-repeat;
+                    background-size: 18px 18px;
+                    background-position: center;
+                }
+            }
+            &-Inst {
+                background: $white;
+                box-shadow: $shadowdark;
+                background-image: url(../../assets/images/m-icon-orange-instagram.svg);
+                background-repeat: no-repeat;
+                background-size: 18px 18px;
+                background-position: center;
+                transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+                &:hover{
+                    background: $white;
+                    box-shadow: $shadowdark;
+                    background-image: url(../../assets/images/m-icon-orange-instagram.svg);
+                    background-repeat: no-repeat;
+                    background-size: 18px 18px;
+                    background-position: center;
+                }
+            }
+            &-Twit {
+                background: $white;
+                box-shadow: $shadowdark;
+                background-image: url(../../assets/images/m-icon-orange-twitter.svg);
+                background-repeat: no-repeat;
+                background-size: 18px 18px;
+                background-position: center;
+                transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+                &:hover{
+                    background: $white;
+                    box-shadow: $shadowdark;
+                    background-image: url(../../assets/images/m-icon-orange-twitter.svg);
+                    background-repeat: no-repeat;
+                    background-size: 18px 18px;
+                    background-position: center;
+                }
+            }
+            &-Skype {
+                background: $white;
+                box-shadow: $shadowdark;
+                background-image: url(../../assets/images/m-icon-orange-skype.svg);
+                background-repeat: no-repeat;
+                background-size: 18px 18px;
+                background-position: center;
+                transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+                &:hover{
+                    background: $white;
+                    box-shadow: $shadowdark;
+                    background-image: url(../../assets/images/m-icon-orange-skype.svg);
+                    background-repeat: no-repeat;
+                    background-size: 18px 18px;
+                    background-position: center;
+                }
+            }
+    }
+    .footerForm{
+            width: 100%;
+            height: 40px;
+            border: 1px solid $orange;
+            box-sizing: border-box;
+            display: flex;
+            &-Input{
+                width: 100%;
+                height: 100%;
+                background: $darkgray;
+                font-family: $font-main;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12.8px;
+                line-height: 123.6%;
+                text-align: left;
+                text-transform: capitalize;
+                color: $lightgrey;
+                padding: 0 5px;
+            }
+            &-Button{
+                width: 35px;
+                height: 100%;
+                background: $orange;
+                background-image: url(../../assets/images/m-icon-white-send.svg);
+                background-repeat: no-repeat;
+                background-size: 18px 18px;
+                background-position: center;
+            }
+    }
+    // block footer bot
+    .footerBot{
+            position: relative;
+            width: 100%;
+            height: 60px;
+            padding: 0 9.38vw;
+            background: $orange;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    }
+    .FooterArrow{
+            display: none;
+    }
+
+    //_____________________________________
+    
+    // PAGE HOME
+    
     //Right Soc-links
     .RightSoclinks{
         position: fixed;
@@ -1162,201 +1355,42 @@
         }
     }
 
-    // block footer top
-    .footerTop{
-        position: relative;
+    //_______________________________________________
+
+    //PAGE BLOG
+
+    // section page-Title
+    .b-pagetitle{
         width: 100%;
-        height: 291px;
-        padding: 60px 5.2vw;
-        background: $darkgray;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-    }
-    .footerBlocks{
+        height: 300px;
+        background-color: $peach;
+        padding: 80px $PadTablkVW 0px $PadTablkVW;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        height: 180px;
-        width: 20.18vw;
-        &-Title {
-            display: flex;
-            font-family: $font-main;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 25px;
-            line-height: 123.6%;
-            color: $white;
-            &-Orange {
-                font-family: $font-main;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 25px;
-                line-height: 123.6%;
-                text-align: center;
-                color: $orange;
-            }
-            &-White {
-                font-family: $font-main;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 25px;
-                line-height: 123.6%;
-                text-align: center;
-                color: $white;
-            }
-        }
-        &-filling {
-          display: block;
-          width: 100%;
-          height: auto;
-          color: $white;
-        }
-        &-Link {
-          display: block;
-          width: 100%;
-          height: auto;
-          color: $white;
-        }
-    }
-    .footer-Text{
-        width: 100%;
-        height: 75px;
-        overflow: hidden;
-    }
-    .footerSoc{
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: space-between;
-        &-Link {
-            display: block;
-            width: 30px;
-            height: 30px;
-            z-index: 5;
-        }
-        &-Fb {
-            background: $white;
-            background-image: url(../../assets/images/m-icon-orange-fb.svg);
-            background-repeat: no-repeat;
-            background-size: 18px 18px;
-            background-position: center;
-            transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
-            &:hover{
-                background: $white;
-                box-shadow: $shadowdark;
-                background-image: url(../../assets/images/m-icon-orange-fb.svg);
-                background-repeat: no-repeat;
-                background-size: 18px 18px;
-                background-position: center;
-            }
-        }
-        &-Inst {
-            background: $white;
-            box-shadow: $shadowdark;
-            background-image: url(../../assets/images/m-icon-orange-instagram.svg);
-            background-repeat: no-repeat;
-            background-size: 18px 18px;
-            background-position: center;
-            transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
-            &:hover{
-                background: $white;
-                box-shadow: $shadowdark;
-                background-image: url(../../assets/images/m-icon-orange-instagram.svg);
-                background-repeat: no-repeat;
-                background-size: 18px 18px;
-                background-position: center;
-            }
-        }
-        &-Twit {
-            background: $white;
-            box-shadow: $shadowdark;
-            background-image: url(../../assets/images/m-icon-orange-twitter.svg);
-            background-repeat: no-repeat;
-            background-size: 18px 18px;
-            background-position: center;
-            transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
-            &:hover{
-                background: $white;
-                box-shadow: $shadowdark;
-                background-image: url(../../assets/images/m-icon-orange-twitter.svg);
-                background-repeat: no-repeat;
-                background-size: 18px 18px;
-                background-position: center;
-            }
-        }
-        &-Skype {
-            background: $white;
-            box-shadow: $shadowdark;
-            background-image: url(../../assets/images/m-icon-orange-skype.svg);
-            background-repeat: no-repeat;
-            background-size: 18px 18px;
-            background-position: center;
-            transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
-            &:hover{
-                background: $white;
-                box-shadow: $shadowdark;
-                background-image: url(../../assets/images/m-icon-orange-skype.svg);
-                background-repeat: no-repeat;
-                background-size: 18px 18px;
-                background-position: center;
-            }
-        }
-    }
-    .footerForm{
-        width: 100%;
-        height: 40px;
-        border: 1px solid $orange;
-        box-sizing: border-box;
-        display: flex;
-        &-Input{
-            width: 100%;
-            height: 100%;
-            background: $darkgray;
-            font-family: $font-main;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 12.8px;
-            line-height: 123.6%;
-            text-align: left;
-            text-transform: capitalize;
-            color: $lightgrey;
-            padding: 0 5px;
-        }
-        &-Button{
-            width: 35px;
-            height: 100%;
-            background: $orange;
-            background-image: url(../../assets/images/m-icon-white-send.svg);
-            background-repeat: no-repeat;
-            background-size: 18px 18px;
-            background-position: center;
-        }
-    }
-    // block footer bot
-    .footerBot{
-        position: relative;
-        width: 100%;
-        height: 60px;
-        padding: 0 9.38vw;
-        background: $orange;
-        display: flex;
         align-items: center;
         justify-content: center;
-    }
-    
-    .FooterArrow{
-        display: none;
+        position: relative;
+        &-title{
+            font-family: $font-main;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 123.6%;
+            text-transform: capitalize;
+            color: $darkgray;
+            text-align: center;
+        }
+        &-minititle{
+            margin: 18px 0 0 0;
+            text-align: center;
+        }
     }
 }
 
 
 @media (max-width: 600px) {
     // Title-3
-    Title3{
+    .Title3{
         width: 260px;
         font-family: $font-main;
         font-style: normal;
@@ -1434,6 +1468,178 @@
             border-radius: 2px;
         }
     }
+    
+    // block footer
+    .footerTop{
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 0px $PadPhonkVW 50px $PadPhonkVW;
+        background: $darkgray;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .footerBlocks{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 220px;
+        width: 100%;
+        margin: 50px 0 0 0;
+        &-Title {
+          display: flex;
+          font-family: $font-main;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 31.25px;
+          line-height: 123.6%;
+          color: $white;
+          &-Orange {
+            font-family: $font-main;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 31.25px;
+            line-height: 123.6%;
+            text-align: center;
+            color: $orange;
+          }
+          &-White {
+            font-family: $font-main;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 31.25px;
+            line-height: 123.6%;
+            text-align: center;
+            color: $white;
+          }
+        }
+    }
+    .footer-Text{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .footerSoc{
+        width: 240px;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        &-Link {
+          display: block;
+          width: 40px;
+          height: 40px;
+          z-index: 5;
+        }
+        &-Fb {
+            background: $white;
+            background-image: url(../../assets/images/m-icon-orange-fb.svg);
+            background-repeat: no-repeat;
+            background-size: 24px 24px;
+            background-position: center;
+            transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+            &:hover{
+                background: $white;
+                box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+                background-image: url(../../assets/images/m-icon-orange-fb.svg);
+                background-repeat: no-repeat;
+                background-size: 24px 24px;
+                background-position: center;
+            }
+        }
+        &-Inst {
+          background: $white;
+          box-shadow: $shadowdark;
+          background-image: url(../../assets/images/m-icon-orange-instagram.svg);
+          background-repeat: no-repeat;
+          background-size: 24px 24px;
+          background-position: center;
+          transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+          &:hover{
+              background: $white;
+              box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+              background-image: url(../../assets/images/m-icon-orange-instagram.svg);
+              background-repeat: no-repeat;
+              background-size: 24px 24px;
+              background-position: center;
+          }
+        }
+        &-Twit {
+          background: $white;
+          box-shadow: $shadowdark;
+          background-image: url(../../assets/images/m-icon-orange-twitter.svg);
+          background-repeat: no-repeat;
+          background-size: 24px 24px;
+          background-position: center;
+          transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+          &:hover{
+              background: $white;
+              box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+              background-image: url(../../assets/images/m-icon-orange-twitter.svg);
+              background-repeat: no-repeat;
+              background-size: 24px 24px;
+              background-position: center;
+          }
+        }
+        &-Skype {
+          background: $white;
+          box-shadow: $shadowdark;
+          background-image: url(../../assets/images/m-icon-orange-skype.svg);
+          background-repeat: no-repeat;
+          background-size: 24px 24px;
+          background-position: center;
+          transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
+          &:hover{
+              background: $white;
+              box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
+              background-image: url(../../assets/images/m-icon-orange-skype.svg);
+              background-repeat: no-repeat;
+              background-size: 24px 24px;
+              background-position: center;
+          }
+        }
+    }
+    .footerForm{
+        width: 100%;
+        height: 60px;
+        border: 1px solid $orange;
+        box-sizing: border-box;
+        display: flex;
+        &-Input{
+          width: 100%;
+          height: 100%;
+          background: $darkgray;
+          text-align: left;
+          padding: 0 18px ;
+        }
+        &-Button{
+          width: 81px;
+          height: 100%;
+          background: $orange;
+          background-image: url(../../assets/images/m-icon-white-send.svg);
+          background-repeat: no-repeat;
+          background-size: 24px 24px;
+          background-position: center;
+        }
+    }
+    .footerBot{
+        position: relative;
+        width: 100%;
+        height: 84px;
+        padding: 0 9.38vw;
+        background: $orange;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    //_______________________________________
+
+    // PAGE HOME 
 
     //Right Soc-links
     .RightSoclinks{
@@ -2531,171 +2737,36 @@
         }
     }
 
-    // block footer
-    .footerTop{
-        position: relative;
+
+    
+    //_______________________________________________
+
+    //PAGE BLOG
+
+    // section page-Title
+    .b-pagetitle{
         width: 100%;
-        height: auto;
-        padding: 0px $PadPhonkVW 50px $PadPhonkVW;
-        background: $darkgray;
+        height: 250px;
+        background-color: $peach;
+        padding: 50px $PadPhonkVW 0px $PadPhonkVW;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-    }
-    .footerBlocks{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: flex-start;
-        height: 220px;
-        width: 100%;
-        margin: 50px 0 0 0;
-        &-Title {
-          display: flex;
-          font-family: $font-main;
-          font-style: normal;
-          font-weight: 600;
-          font-size: 31.25px;
-          line-height: 123.6%;
-          color: $white;
-          &-Orange {
-            font-family: $font-main;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 31.25px;
-            line-height: 123.6%;
-            text-align: center;
-            color: $orange;
-          }
-          &-White {
-            font-family: $font-main;
-            font-style: normal;
-            font-weight: 600;
-            font-size: 31.25px;
-            line-height: 123.6%;
-            text-align: center;
-            color: $white;
-          }
-        }
-    }
-    .footer-Text{
-        width: 100%;
-        height: auto;
-        overflow: hidden;
-    }
-    .footerSoc{
-        width: 240px;
-        height: auto;
-        display: flex;
-        justify-content: space-between;
-        &-Link {
-          display: block;
-          width: 40px;
-          height: 40px;
-          z-index: 5;
-        }
-        &-Fb {
-            background: $white;
-            background-image: url(../../assets/images/m-icon-orange-fb.svg);
-            background-repeat: no-repeat;
-            background-size: 24px 24px;
-            background-position: center;
-            transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
-            &:hover{
-                background: $white;
-                box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
-                background-image: url(../../assets/images/m-icon-orange-fb.svg);
-                background-repeat: no-repeat;
-                background-size: 24px 24px;
-                background-position: center;
-            }
-        }
-        &-Inst {
-          background: $white;
-          box-shadow: $shadowdark;
-          background-image: url(../../assets/images/m-icon-orange-instagram.svg);
-          background-repeat: no-repeat;
-          background-size: 24px 24px;
-          background-position: center;
-          transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
-          &:hover{
-              background: $white;
-              box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
-              background-image: url(../../assets/images/m-icon-orange-instagram.svg);
-              background-repeat: no-repeat;
-              background-size: 24px 24px;
-              background-position: center;
-          }
-        }
-        &-Twit {
-          background: $white;
-          box-shadow: $shadowdark;
-          background-image: url(../../assets/images/m-icon-orange-twitter.svg);
-          background-repeat: no-repeat;
-          background-size: 24px 24px;
-          background-position: center;
-          transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
-          &:hover{
-              background: $white;
-              box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
-              background-image: url(../../assets/images/m-icon-orange-twitter.svg);
-              background-repeat: no-repeat;
-              background-size: 24px 24px;
-              background-position: center;
-          }
-        }
-        &-Skype {
-          background: $white;
-          box-shadow: $shadowdark;
-          background-image: url(../../assets/images/m-icon-orange-skype.svg);
-          background-repeat: no-repeat;
-          background-size: 24px 24px;
-          background-position: center;
-          transition: background 0.3s, box-shadow 0.3s, background-image 0.3s;
-          &:hover{
-              background: $white;
-              box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.0);
-              background-image: url(../../assets/images/m-icon-orange-skype.svg);
-              background-repeat: no-repeat;
-              background-size: 24px 24px;
-              background-position: center;
-          }
-        }
-    }
-    .footerForm{
-        width: 100%;
-        height: 60px;
-        border: 1px solid $orange;
-        box-sizing: border-box;
-        display: flex;
-        &-Input{
-          width: 100%;
-          height: 100%;
-          background: $darkgray;
-          text-align: left;
-          padding: 0 18px ;
-        }
-        &-Button{
-          width: 81px;
-          height: 100%;
-          background: $orange;
-          background-image: url(../../assets/images/m-icon-white-send.svg);
-          background-repeat: no-repeat;
-          background-size: 24px 24px;
-          background-position: center;
-        }
-    }
-    .footerBot{
-        position: relative;
-        width: 100%;
-        height: 84px;
-        padding: 0 9.38vw;
-        background: $orange;
-        display: flex;
         align-items: center;
         justify-content: center;
-        text-align: center;
+        position: relative;
+        &-title{
+            font-family: $font-main;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 31.25px;
+            line-height: 123.6%;
+            text-transform: capitalize;
+            color: $darkgray;
+            text-align: center;
+        }
+        &-minititle{
+            margin: 18px 0 0 0;
+            text-align: center;
+        }
     }
 }
