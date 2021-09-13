@@ -1952,6 +1952,164 @@ body {
   width: 53.47vw;
 }
 
+.b-post {
+  margin: 0 0 40px 0;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.b-post-picture {
+  width: 100%;
+  height: 400px;
+}
+.b-post-dateblock {
+  margin: 40px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 123.6%;
+  color: #7B7B7B;
+}
+.b-post-dateblock p {
+  margin: 0 30px 0 40px;
+  position: relative;
+}
+.b-post-dateblock-date::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -40px;
+  background-image: url(../../assets/images/m-icon-dark-timer.svg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.b-post-dateblock-autor::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -40px;
+  background-image: url(../../assets/images/m-icon-dark-user.svg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.b-post-dateblock-comments::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -40px;
+  background-image: url(../../assets/images/m-icon-dark-message.svg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.b-post-title {
+  margin: 40px 0 0 0;
+  width: 100%;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 18px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31.25px;
+  line-height: 123.6%;
+  color: #373737;
+}
+.b-post-text {
+  margin: 18px 0 0 0;
+  padding: 0 18px;
+}
+.b-post-link {
+  margin: 40px 0 0 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 150px;
+  height: 50px;
+  background: #FF5300;
+  border-radius: 5px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 123.6%;
+  color: white;
+  -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+          box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+}
+
+.b-post1-picture {
+  background-image: url(../../assets/images/m-post-detail-1@2x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.b-post2-picture {
+  background-image: url(../../assets/images/m-post-detail-2@2x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.b-post3-picture {
+  background-image: url(../../assets/images/m-post-detail-3@2x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.b-post4-picture {
+  background-image: url(../../assets/images/m-post-detail-4@2x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.b-post5-picture {
+  background-image: url(../../assets/images/m-post-detail-5@2x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .b-rightmenu {
   position: sticky;
   top: 107px;
@@ -4074,31 +4232,31 @@ body {
     border-radius: 20px;
   }
   .b-letests-post1::before {
-    background-image: url(../../assets/images/m-latest-post-1@2x.png);
+    background-image: url(../../assets/images/m-latest-post-1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .b-letests-post2::before {
-    background-image: url(../../assets/images/m-latest-post-2@2x.png);
+    background-image: url(../../assets/images/m-latest-post-2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .b-letests-post3::before {
-    background-image: url(../../assets/images/m-latest-post-3@2x.png);
+    background-image: url(../../assets/images/m-latest-post-3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .b-letests-post4::before {
-    background-image: url(../../assets/images/m-latest-post-4@2x.png);
+    background-image: url(../../assets/images/m-latest-post-4.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .b-letests-post5::before {
-    background-image: url(../../assets/images/m-latest-post-5@2x.png);
+    background-image: url(../../assets/images/m-latest-post-5.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -6140,25 +6298,25 @@ body {
     border-radius: 20px;
   }
   .b-letests-post1::before {
-    background-image: url(../../assets/images/m-latest-post-1@2x.png);
+    background-image: url(../../assets/images/m-latest-post-1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .b-letests-post2::before {
-    background-image: url(../../assets/images/m-latest-post-2@2x.png);
+    background-image: url(../../assets/images/m-latest-post-2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .b-letests-post3::before {
-    background-image: url(../../assets/images/m-latest-post-3@2x.png);
+    background-image: url(../../assets/images/m-latest-post-3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .b-letests-post4::before {
-    background-image: url(../../assets/images/m-latest-post-4@2x.png);
+    background-image: url(../../assets/images/m-latest-post-4.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
