@@ -1950,6 +1950,13 @@ body {
 .b-posts {
   height: auto;
   width: 53.47vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .b-post {
@@ -2108,6 +2115,56 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.b-posts-links {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: auto;
+  height: auto;
+}
+.b-posts-links-link {
+  margin: 0 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #FF5300;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 123.6%;
+  color: #FF5300;
+  -webkit-transition: color 0.3s, background 0.3s, -webkit-box-shadow 0.3s;
+  transition: color 0.3s, background 0.3s, -webkit-box-shadow 0.3s;
+  transition: color 0.3s, background 0.3s, box-shadow 0.3s;
+  transition: color 0.3s, background 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
+}
+.b-posts-links-link:hover {
+  background: #FF5300;
+  color: white;
+  -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+          box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+}
+.b-posts-links-link1 {
+  background: #FF5300;
+  color: white;
 }
 
 .b-rightmenu {
@@ -4293,6 +4350,55 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+
+  .b-posts-links {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: auto;
+    height: auto;
+  }
+  .b-posts-links-link {
+    margin: 0 9px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #FF5300;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    color: #FF5300;
+    -webkit-transition: color 0.3s, background 0.3s, -webkit-box-shadow 0.3s;
+    transition: color 0.3s, background 0.3s, -webkit-box-shadow 0.3s;
+    transition: color 0.3s, background 0.3s, box-shadow 0.3s;
+    transition: color 0.3s, background 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
+  }
+  .b-posts-links-link:hover {
+    background: white;
+    color: #FF5300;
+    -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+            box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+  }
+  .b-posts-links-link1 {
+    color: white;
   }
 
   .b-rightmenu {
@@ -6484,6 +6590,56 @@ body {
     color: white;
     -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
             box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+  }
+
+  .b-posts-links {
+    margin: 0 0 50px 0;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    width: auto;
+    height: auto;
+  }
+  .b-posts-links-link {
+    margin: 0 9px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #FF5300;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    color: #FF5300;
+    -webkit-transition: color 0.3s, background 0.3s, -webkit-box-shadow 0.3s;
+    transition: color 0.3s, background 0.3s, -webkit-box-shadow 0.3s;
+    transition: color 0.3s, background 0.3s, box-shadow 0.3s;
+    transition: color 0.3s, background 0.3s, box-shadow 0.3s, -webkit-box-shadow 0.3s;
+  }
+  .b-posts-links-link:hover {
+    background: white;
+    color: #FF5300;
+    -webkit-box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+            box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
+  }
+  .b-posts-links-link1 {
+    color: white;
   }
 
   .b-rightmenu {

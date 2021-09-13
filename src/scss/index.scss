@@ -1470,6 +1470,8 @@ body {
 .b-posts{
   height: auto;
   width: 53.47vw;
+  display: flex;
+  flex-direction: column;
 }
 .b-post{
   margin: 0 0 40px 0;
@@ -1601,6 +1603,39 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.b-posts-links{
+  align-self: center;
+  display: flex;
+  flex-wrap: nowrap;
+  width: auto;
+  height: auto;
+  &-link{
+    margin: 0 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FF5300;
+    box-sizing: border-box;
+    font-family: $font-main;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    color: $orange;
+    transition: color 0.3s, background 0.3s, box-shadow 0.3s;
+    &:hover{
+      background: $orange;
+      color: $white;
+      box-shadow: $shadoworange;
+    }
+  }
+  &-link1{
+    background: $orange;
+    color: $white;
+  }
 }
 
 // section right menu

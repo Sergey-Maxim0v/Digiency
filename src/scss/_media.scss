@@ -1530,6 +1530,38 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .b-posts-links{
+        align-self: center;
+        display: flex;
+        flex-wrap: nowrap;
+        width: auto;
+        height: auto;
+        &-link{
+            margin: 0 9px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border: 1px solid #FF5300;
+            box-sizing: border-box;
+            font-family: $font-main;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 123.6%;
+            color: $orange;
+            transition: color 0.3s, background 0.3s, box-shadow 0.3s;
+            &:hover{
+                background: $white;
+                color: $orange;
+                box-shadow: $shadoworange;
+            }
+        }
+        &-link1{
+            color: $white;
+        }
+    }
   
     // section right menu
     .b-rightmenu{
@@ -3205,6 +3237,39 @@
             line-height: 123.6%;
             color: $white;
             box-shadow: $shadoworange;
+        }
+    }
+    .b-posts-links{
+        margin: 0 0 50px 0;
+        align-self: center;
+        display: flex;
+        flex-wrap: nowrap;
+        width: auto;
+        height: auto;
+        &-link{
+            margin: 0 9px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border: 1px solid #FF5300;
+            box-sizing: border-box;
+            font-family: $font-main;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 123.6%;
+            color: $orange;
+            transition: color 0.3s, background 0.3s, box-shadow 0.3s;
+            &:hover{
+                background: $white;
+                color: $orange;
+                box-shadow: $shadoworange;
+            }
+        }
+        &-link1{
+            color: $white;
         }
     }
   
