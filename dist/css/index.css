@@ -2396,6 +2396,22 @@ body {
   color: #7B7B7B;
 }
 
+.p-content {
+  height: auto;
+  width: 53.47vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.p-pagetitle-title {
+  width: 830px;
+}
+
 @media (max-width: 1024px) {
   .Title3 {
     font-family: "Work Sans";
@@ -4635,6 +4651,17 @@ body {
     font-size: 16px;
     line-height: 150.6%;
     color: #7B7B7B;
+  }
+
+  .p-pagetitle-title {
+    width: 430px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    text-align: center;
+    color: #373737;
   }
 }
 @media (max-width: 600px) {
@@ -6876,5 +6903,16 @@ body {
     font-size: 16px;
     line-height: 150.6%;
     color: #7B7B7B;
+  }
+
+  .p-pagetitle-title {
+    width: 100%;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    text-align: center;
+    color: #373737;
   }
 }

@@ -1737,7 +1737,21 @@
             color: $lightgrey;
         }
     }
-  
+    
+    //____________________________________________
+
+    // PAGE POST 23
+    .p-pagetitle-title{
+        width: 430px;
+        font-family: $font-main;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 123.6%;
+        text-align: center;
+        color: $darkgray;
+    }
+
 }
 
 
@@ -3089,8 +3103,6 @@
             background-size: 100% 100%;
         }
     }
-
-
     
     //_______________________________________________
 
@@ -3448,5 +3460,19 @@
             color: $lightgrey;
         }
     }
+    
+    //____________________________________________
 
+    // PAGE POST 23
+    .p-pagetitle-title{
+        width: 100%;
+        font-family: $font-main;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 123.6%;
+        text-align: center;
+        color: $darkgray;
+    }
+    
 }
