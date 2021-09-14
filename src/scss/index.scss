@@ -1841,7 +1841,301 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+  &-postend{
+    margin: 50px 0 0 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    &-half{
+      width: 48%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+    }
+    &-leftimg{
+      margin: 0 0 40px 0;
+      width: 100%;
+      height: 400px;
+      background-image: url(../../assets/images/m-post-detail-3@2x.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &-rightimg{
+      margin: 0 0 40px 0;
+      width: 100%;
+      height: 400px;
+      background-image: url(../../assets/images/m-post-detail-4@2x.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+  &-autor {
+    margin: 50px 0 0 0;
+    width: 100%;
+    height: auto;
+    background: $peach;
+    padding: 35px 25px 20px 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    &-name{
+      font-family: $font-main;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 123.6%;
+      color: $darkgray;
+      position: relative;
+      &::before{
+        content: "";
+        position: absolute;
+        left: -118px;
+        display: block;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        background-image: url(../../assets/images/m-post-author@2x.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+    }
+    &-pos{
+      margin: 12px 0 0 0;
+      font-family: $font-main;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 150.6%;
+      color: $orange;
+    }
+    &-text{
+      margin: 9px 0 0 0;
+    }
+  }
+}
+.p-comments{
+  margin: 120px 0 0 0;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  &-buttons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid $lightgrey;
+    &-button{
+      display: block;
+      font-family: $font-main;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 123.6%;
+      color: $darkgray;
+      position: relative;
+      padding: 0 0 18px 0;
+      background-color: $white;
+      &:hover{
+        border-bottom:  2px solid $orange;
+        margin: 0 0 -2px 0;
+      }
+    }
+    &-comm{
+      border-bottom:  2px solid $orange;
+      margin: 0 0 -2px 0;
+    }
+    &-gwen::before{
+      content: "1";
+      display: block;
+      text-align: center;
+      width: 25px;
+      height: 25px;
+      background-image: url(../../assets/images/m-icon-orange-message-2.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      font-family: $font-main;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150.6%;
+      color: $white;
+      position: absolute;
+      left: -45px;
+    }
+  }
+  &-links {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+    &-link{
+      margin: 18px 0 0 0;
+      display: block;
+      font-family: $font-main;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 123.6%;
+      color: $lightgrey;
+      position: relative;
+    }
+    &-recom::before{
+      content: "";
+      display: block;
+      width: 24px;
+      height: 24px;
+      background-image: url(../../assets/images/m-icon-orange-heart.svg);
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      left: -34px;
+    }
+    &-sort::before{
+      content: "";
+      display: block;
+      width: 24px;
+      height: 24px;
+      background-image: url(../../assets/images/m-arrow-down-dark.svg);
+      background-size: 20px 10px;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: absolute;
+      right: -34px;
+    }
+  }
+  &-iput{
+    margin: 40px 0 0 0;
+    width: 100%;
+    height: auto;
+    & textarea{
+      display: block;
+      width: 100%;
+      height: 80px;
+      border: 1.5px solid $lightgrey;
+      box-sizing: border-box;
+      border-radius: 10px;
+    }
+  }
+  &-comment{
+    margin: 40px 0 0 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 18px 18px 18px 100px;
+    &-text{
+      margin: 18px 0 0 0;
+    }
+    &-buttons{
+      margin: 12px 0 0 0;
+      width: 56px;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &-left{
+        width: 18px;
+        height: 18px;
+        background: $white;
+        background-image: url(../../assets/images/m-arrow-down-dark.svg);
+        background-position: center;
+        background-size: 15px 8px;
+        background-repeat: no-repeat;
+      }
+      &-center{
+        width: 2px;
+        height: 10px;
+        border-radius: 2px;
+        background: $lightgrey;
+      }
+      &-right{
+        width: 18px;
+        height: 18px;
+        background: $white;
+        background-image: url(../../assets/images/m-arrow-up-dark.svg);
+        background-position: center;
+        background-size: 15px 8px;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+  &-maincomment{
+    padding: 18px 18px 18px 100px;
+    &-name{
+      font-family: $font-name;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 123.6%;
+      text-transform: capitalize;
+      color: $orange;
+      position: relative;
+      &::before{
+        content: "";
+        display: block;
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        position: absolute;
+        left: -100px;
+        background-image: url(../../assets/images/m-post-user-1@2x.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+  &-subscomment{
+    padding: 18px 18px 18px 162px;
+    &-name{
+      font-family: $font-main;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 123.6%;
+      color: $orange;
+      position: relative;
+    }
+  }
+  &-subscomment1-name::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    left: -62px;
+    background-image: url(../../assets/images/m-post-user-2@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  &-subscomment2-name::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    left: -62px;
+    background-image: url(../../assets/images/m-post-user-3@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 @import './media';
